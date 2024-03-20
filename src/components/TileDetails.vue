@@ -151,6 +151,14 @@ function updateTooltip(event: MouseEvent): void {
                 <div class="border-2 border-gray-500 small-square">
                     <img v-if="preset.grenades" :src="getImageUrl('grenades')" alt="">
                     <img v-else :src="no_grenades" alt="">
+                    <div v-if="preset.grenades" class="item-info-container" @mousemove="updateTooltip">
+                        <div class="item-info" :class="{'tooltip-left': (tooltip === 'left'), 'tooltip-right': (tooltip === 'right')}">
+                            <div v-for="(grenade) in preset.grenades" class="flex justify-between items-center">
+                                <div class="item-info-img"><img :src="getItemImageUrl('grenades', grenade.name)" alt=""></div>
+                                <span class="pl-10 pr-2 text-nowrap">{{ grenade.name }} x{{ grenade.count }}</span>
+                            </div>
+                        </div>
+                    </div>
 
                 </div>
             </div>

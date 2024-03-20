@@ -7,7 +7,7 @@ interface Preset {
     armor?: Armor, 
     helmet?: Helmet,
     meds: Med[],
-    grenades?: []
+    grenades?: Grenade[]
 }
 
 interface Weapon {
@@ -55,4 +55,9 @@ interface Helmet {
 interface Med {
     name: string,
     uses: number
+}
+
+interface Grenade {
+    name: string,
+    count: number
 }

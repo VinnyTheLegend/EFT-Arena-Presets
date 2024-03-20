@@ -64,15 +64,17 @@ onUpdated(() => {
 </script>
 
 <template>
-<div class="border-solid border-2 border-sky-500 mt-5 mx-6 p-5 flex flex-col overflow-auto"  style="height: 90vh">
-  <!-- <div class="ml-auto self-center"></div> -->
-  <div class="grid gap-24 grid-cols-4 place-items-center justify-around content-around border-2 border-pink-500" style="width:1500px">
-    <Tile v-for="(preset, i) in tier_1" :CURR_TREE="CURR_TREE" :preset="preset" :key="i"/>
+<div class="border-solid border-2 border-sky-500 mt-5 mx-6 p-5 flex overflow-auto"  style="height: 90vh">
+  <div class="ml-auto self-center"></div>
+  <div>
+    <div class="grid gap-24 grid-cols-4 place-items-center justify-around content-around border-2 border-pink-500" style="width:1500px">
+      <Tile v-for="(preset, i) in tier_1" :CURR_TREE="CURR_TREE" :preset="preset" :key="i"/>
+    </div>
+    <div class="grid gap-24 grid-cols-4 place-items-center justify-around content-around border-2 border-pink-500" style="width:1500px">
+      <Tile v-for="(preset, i) in tier_2" :CURR_TREE="CURR_TREE" :preset="preset" :key="i"/>
+    </div>
   </div>
-  <div class="grid gap-24 grid-cols-4 place-items-center justify-around content-around border-2 border-pink-500" style="width:1500px">
-    <Tile v-for="(preset, i) in tier_2" :CURR_TREE="CURR_TREE" :preset="preset" :key="i"/>
-  </div>
-  <!-- <div class="mr-auto self-center"></div> -->
+  <div class="mr-auto self-center"></div>
 </div>
 </template>
 
