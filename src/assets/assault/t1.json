@@ -284,5 +284,144 @@
             "level": 3,
             "ricochet": "High"
         }
+    },
+    {
+        "name": "Argument",
+        "primary": {
+            "name": "Molot Arms VPO-209 .366 TKM carbine",
+            "modes": [
+                "single"
+            ],
+            "rpm": 600,
+            "ergo": 52,
+            "vertical": 131,
+            "horizontal": 326,
+            "ammo": {
+                "name": ".366 TKM EKO",
+                "type": "Universal",
+                "damage": 73,
+                "penetration": 30,
+                "magazines": [
+                    {
+                        "name": "AK 7.62x39 Magpul 20 GEN M3 20-round magazine",
+                        "count": 3
+                    }
+                ]
+            }
+        },
+        "secondary": {
+            "name": "Chiappa Rhino 200DS 9x19 revolver",
+            "modes": [
+                "single"
+            ],
+            "rpm": 30,
+            "ergo": 98,
+            "vertical": 306,
+            "horizontal": 200,
+            "ammo": {
+                "name": "9x19 AP 6.3",
+                "type": "Universal",
+                "damage": 52,
+                "penetration": 30,
+                "magazines": [
+                    {
+                        "name": "Chiappa Rhino 9x19 6-round cylinder",
+                        "count": 0
+                    }
+                ]
+            }
+        },
+        "armor": {
+            "name": "6B23-2 body armor (Mountain Flora)",
+            "areas": [
+                {
+                    "name": "F. plate",
+                    "level": 5,
+                    "points": 40,
+                    "pointsmax": 50
+                },
+                {
+                    "name": "Bck. plate",
+                    "level": 5,
+                    "points": 40,
+                    "pointsmax": 50
+                },
+                {
+                    "name": "Thorax",
+                    "level": 3,
+                    "points": 60,
+                    "pointsmax": 60
+                },
+                {
+                    "name": "Stomach",
+                    "level": 3,
+                    "points": 60,
+                    "pointsmax": 60
+                },
+                {
+                    "name": "Upper back",
+                    "level": 3,
+                    "points": 60,
+                    "pointsmax": 60
+                },
+                {
+                    "name": "Lower back",
+                    "level": 3,
+                    "points": 60,
+                    "pointsmax": 60
+                },
+                {
+                    "name": "Left side",
+                    "level": 3,
+                    "points": 15,
+                    "pointsmax": 15
+                },
+                {
+                    "name": "Right side",
+                    "level": 3,
+                    "points": 15,
+                    "pointsmax": 15
+                },
+                {
+                    "name": "Throat",
+                    "level": 3,
+                    "points": 15,
+                    "pointsmax": 15
+                },
+                {
+                    "name": "Back neck",
+                    "level": 3,
+                    "points": 15,
+                    "pointsmax": 15
+                }
+            ]
+        },
+        "meds": [
+            {
+                "name": "IFAK individual first aid kit",
+                "uses": 300
+            },
+            {
+                "name": "Analgin painkillers",
+                "uses": 3
+            },
+            {
+                "name": "Esmarch tourniquet",
+                "uses": 2
+            },
+            {
+                "name": "Army bandage",
+                "uses": 2
+            },
+            {
+                "name": "Aluminum splint",
+                "uses": 2
+            }
+        ],
+        "helmet": {
+            "name": "NFM HJELM helmet (Hellhound Grey)",
+            "level": 3,
+            "ricochet": "High"
+        }
     }
 ]

@@ -2,6 +2,7 @@
 import { ref } from 'vue';
 
 import TileDetails from './TileDetails.vue';
+import Line from './Line.vue'
 
 import mp_img from '/src/assets/mp.webp'
 
@@ -29,6 +30,7 @@ function getImageUrl(img: string): string {
 
 <template>
     <div class="relative" v-if="props.preset.name != undefined">
+        <Line linetype="left"/>
         <div class="tile-bg">
             <div class="preset-tile relative bg-gradient-to-t from-black to-gray-800">
                 <div class="w-full flex bg-slate-950 pl-7 pt-1 font-bold pb-1 border-b-2 border-gray-500" style="height:10%">

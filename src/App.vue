@@ -40,4 +40,4 @@ function NavButton(event: Event) {
   background-color: darkslategray;
 }
 
-</style>./components/Tree.vue
+</style>
