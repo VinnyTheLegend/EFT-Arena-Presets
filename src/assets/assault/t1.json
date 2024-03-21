@@ -146,7 +146,141 @@
             }
         ]
     },
-    {},{},{},
+    {
+        "name": "Barkeater",
+        "mp": "155",
+        "primary": {
+            "name": "ADAR 2-15 5.56x45 carbine",
+            "modes": [
+                "single"
+            ],
+            "rpm": 800,
+            "ergo": 35,
+            "vertical": 80,
+            "horizontal": 230,
+            "ammo": {
+                "name": "5.56x45mm M856",
+                "type": "Soft Targets",
+                "damage": 64,
+                "penetration": 18,
+                "magazines": [
+                    {
+                        "name": "5.56x45mm Magpul PMAG 20 GEN M3 STANAG 20-round magazine",
+                        "count": 3
+                    }
+                ]
+            }
+        },
+        "secondary": {
+            "name": "Colt M1911A1 .45 ACP pistol",
+            "modes": [
+                "single"
+            ],
+            "rpm": 30,
+            "ergo": 76,
+            "vertical": 437,
+            "horizontal": 344,
+            "ammo": {
+                "name": "7.62x25mm TT LRN",
+                "type": "Universal",
+                "damage": 72,
+                "penetration": 25,
+                "magazines": [
+                    {
+                        "name": "M1911A1 .45 ACP Mec-Gar 11-round magazine",
+                        "count": 1
+                    }
+                ]
+            }
+        },
+        "armor": {
+            "name": "6B23-2 body armor (Mountain Flora)",
+            "areas": [
+                {
+                    "name": "Fr. plate",
+                    "level": 3,
+                    "points": 31,
+                    "pointsmax": 45
+                },
+                {
+                    "name": "Bck. plate",
+                    "level": 3,
+                    "points": 24,
+                    "pointsmax": 35
+                },
+                {
+                    "name": "Stomach",
+                    "level": 2,
+                    "points": 56,
+                    "pointsmax": 56
+                },
+                {
+                    "name": "Thorax",
+                    "level": 2,
+                    "points": 56,
+                    "pointsmax": 56
+                },
+                {
+                    "name": "Lower back",
+                    "level": 2,
+                    "points": 56,
+                    "pointsmax": 56
+                },
+                {
+                    "name": "Upper back",
+                    "level": 2,
+                    "points": 56,
+                    "pointsmax": 56
+                },
+                {
+                    "name": "Left side",
+                    "level": 2,
+                    "points": 12,
+                    "pointsmax": 12
+                },
+                {
+                    "name": "Right side",
+                    "level": 2,
+                    "points": 12,
+                    "pointsmax": 12
+                },
+                {
+                    "name": "Throat",
+                    "level": 2,
+                    "points": 14,
+                    "pointsmax": 14
+                },
+                {
+                    "name": "Back neck",
+                    "level": 2,
+                    "points": 14,
+                    "pointsmax": 14
+                }
+            ]
+        },
+        "meds": [
+            {
+                "name": "IFAK individual first aid kit",
+                "uses": 300
+            },
+            {
+                "name": "Analgin painkillers",
+                "uses": 3
+            },
+            {
+                "name": "CALOK-B hemostatic applicator",
+                "uses": 2
+            },
+            {
+                "name": "Army bandage",
+                "uses": 2
+            },
+            {
+                "name": "Aluminum splint",
+                "uses": 2
+            }
+        ]
+    },{},{},
     {
         "name": "Argument",
         "mp": "151",
