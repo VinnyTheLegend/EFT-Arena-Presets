@@ -30,7 +30,7 @@ function getImageUrl(img: string): string {
 
 <template>
     <div class="relative" v-if="props.preset.name != undefined">
-        <Line linetype="left"/>
+        <Line v-if="preset.connection" :linetype="preset.connection"/>
         <div class="tile-bg">
             <div class="preset-tile relative bg-gradient-to-t from-black to-gray-800">
                 <div class="w-full flex bg-slate-950 pl-7 pt-1 font-bold pb-1 border-b-2 border-gray-500" style="height:10%">
@@ -45,7 +45,7 @@ function getImageUrl(img: string): string {
                     </div>
                     <div class="absolute top-10 left-5 flex">
                         <img :src="mp_img" alt="" class="object-none translate-y-0.5">
-                        <span class="font-bold pl-2">149</span>
+                        <span class="font-bold pl-2">{{ preset.mp }}</span>
                     </div>
                     <div class="left-0 top-0 absolute h-full w-full bg-black bg-opacity-80" :class="{ hidden: !details_visible }"></div>
                 </div>

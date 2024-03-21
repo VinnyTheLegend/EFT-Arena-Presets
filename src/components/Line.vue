@@ -18,8 +18,12 @@ console.log(props.linetype)
         <div class="h-0 border-b-4 border-gray-500 absolute ml-36" style="width: 398px; transform: translate(0, -48px);"></div>
     </div>
 
-    <div v-if="(linetype === 'left')">
+    <div v-if="(linetype === 'right')">
         <div class="h-0 border-b-4 border-gray-500 absolute ml-36" style="width: 275px; transform: translate(0, 150px);"></div>
+    </div>
+
+    <div v-if="(linetype === 'left')">
+        <div class="h-0 border-b-4 border-gray-500 absolute ml-36" style="width: 275px; transform: translate(-245px, 150px);"></div>
     </div>
 </template>
 

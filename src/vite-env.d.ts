@@ -2,12 +2,14 @@
 
 interface Preset {
     name: string,
+    mp: number,
     primary: Weapon,
     secondary?: Weapon,
     armor?: Armor, 
     helmet?: Helmet,
     meds: Med[],
-    grenades?: Grenade[]
+    grenades?: Grenade[],
+    connection: string
 }
 
 interface Weapon {

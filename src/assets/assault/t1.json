@@ -1,6 +1,7 @@
 [
     {
         "name": "Guard",
+        "mp": "149",
         "primary": {
             "name": "TOZ Simonov SKS 7.62x39 carbine",
             "modes": [
@@ -148,6 +149,8 @@
     {},{},{},
     {
         "name": "Argument",
+        "mp": "151",
+        "connection": "top",
         "primary": {
             "name": "Molot Arms VPO-209 .366 TKM carbine",
             "modes": [
@@ -287,6 +290,8 @@
     },
     {
         "name": "Argument",
+        "mp": "151",
+        "connection": "topleft",
         "primary": {
             "name": "Molot Arms VPO-209 .366 TKM carbine",
             "modes": [
