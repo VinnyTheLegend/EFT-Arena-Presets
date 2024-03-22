@@ -21,7 +21,6 @@ function getImageUrl(img: string): string {
 
 function getItemImageUrl(folder: string, img: string): string {
     let new_string: string = img.replace(/ /g, "_")
-    console.log(`/src/assets/${folder}/${new_string.toLowerCase()}.webp`)
     return new URL(`/src/assets/${folder}/${new_string.toLowerCase()}.webp`, import.meta.url).href
 }
 
