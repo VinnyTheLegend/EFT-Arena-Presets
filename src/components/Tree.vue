@@ -64,17 +64,47 @@ onUpdated(() => {
 </script>
 
 <template>
-<div class="border-solid border-2 border-sky-500 mt-5 mx-6 p-5 flex overflow-auto"  style="height: 90vh">
-  <div class="ml-auto self-center"></div>
-  <div>
-    <div class="grid gap-24 grid-cols-4 place-items-center justify-around content-around border-2 border-pink-500" style="width:1500px">
-      <Tile v-for="(preset, i) in tier_1" :CURR_TREE="CURR_TREE" :preset="preset" :key="i"/>
-    </div>
-    <div class="grid gap-24 grid-cols-4 place-items-center justify-around content-around border-2 border-pink-500" style="width:1500px">
-      <Tile v-for="(preset, i) in tier_2" :CURR_TREE="CURR_TREE" :preset="preset" :key="i"/>
-    </div>
+<div class="border-solid border-2 border-sky-500 mx-6 overflow-auto relative"  style="height: 90vh">
+
+  <div class="border-2 border-green-500 sticky w-full left-0 h-20 flex items-center pl-5 bg-gray-900">
+    <h1 class="font-extrabold text-3xl">Tier 1</h1>
   </div>
-  <div class="mr-auto self-center"></div>
+  <div class="flex">
+    <div class="ml-auto self-center"></div>
+    <div>
+      <div class="grid gap-24 grid-cols-4 place-items-center justify-around content-around border-2 border-pink-500 mt-4 mb-4" style="width:1500px">
+        <Tile v-for="(preset, i) in tier_1" :CURR_TREE="CURR_TREE" :preset="preset" :key="i"/>
+      </div>
+    </div>
+    <div class="mr-auto self-center"></div>
+  </div>
+
+  <div class="border-2 border-green-500 sticky w-full left-0 h-20 flex items-center pl-5 bg-gray-900">
+    <h1 class="font-extrabold text-3xl">Tier 2</h1>
+  </div>
+  <div class="flex">
+    <div class="ml-auto self-center"></div>
+    <div>
+      <div class="grid gap-24 grid-cols-4 place-items-center justify-around content-around border-2 border-pink-500 mt-4 mb-4" style="width:1500px">
+        <Tile v-for="(preset, i) in tier_2" :CURR_TREE="CURR_TREE" :preset="preset" :key="i"/>
+      </div>
+    </div>
+    <div class="mr-auto self-center"></div>
+  </div>
+
+  <div class="border-2 border-green-500 sticky w-full left-0 h-20 flex items-center pl-5 bg-gray-900">
+    <h1 class="font-extrabold text-3xl">Tier 3</h1>
+  </div>
+  <div class="flex">
+    <div class="ml-auto self-center"></div>
+    <div>
+      <div class="grid gap-24 grid-cols-4 place-items-center justify-around content-around border-2 border-pink-500 mt-4" style="width:1500px">
+        <Tile v-for="(preset, i) in tier_3" :CURR_TREE="CURR_TREE" :preset="preset" :key="i"/>
+      </div>
+    </div>
+    <div class="mr-auto self-center"></div>
+  </div>
+
 </div>
 </template>
 
