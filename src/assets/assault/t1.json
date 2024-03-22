@@ -35,7 +35,7 @@
             "horizontal": 289,
             "ammo": {
                 "name": "7.62x25mm TT LRN",
-                "type": "Soft Targets",
+                "type": "Soft targets",
                 "damage": 64,
                 "penetration": 8,
                 "magazines": [
@@ -160,7 +160,7 @@
             "horizontal": 230,
             "ammo": {
                 "name": "5.56x45mm M856",
-                "type": "Soft Targets",
+                "type": "Soft targets",
                 "damage": 64,
                 "penetration": 18,
                 "magazines": [
@@ -280,25 +280,23 @@
                 "uses": 2
             }
         ]
-    },{},{},
-    {
-        "name": "Argument",
-        "mp": "151",
-        "connection": "top",
+    },    {
+        "name": "Mutineer",
+        "mp": "169",
         "primary": {
-            "name": "Molot Arms VPO-209 .366 TKM carbine",
+            "name": "Kalashnikov AKMS 7.62x39 assault rifle",
             "modes": [
-                "single"
+                "single, auto"
             ],
             "rpm": 600,
-            "ergo": 52,
-            "vertical": 131,
-            "horizontal": 326,
+            "ergo": 63,
+            "vertical": 104,
+            "horizontal": 258,
             "ammo": {
-                "name": ".366 TKM EKO",
+                "name": "7.62x39mm SP",
                 "type": "Universal",
-                "damage": 73,
-                "penetration": 30,
+                "damage": 68,
+                "penetration": 20,
                 "magazines": [
                     {
                         "name": "AK 7.62x39 Magpul 20 GEN M3 20-round magazine",
@@ -308,89 +306,65 @@
             }
         },
         "secondary": {
-            "name": "Chiappa Rhino 200DS 9x19 revolver",
+            "name": "Yarygin MP-443 Grach 9x19 pistol",
             "modes": [
                 "single"
             ],
             "rpm": 30,
-            "ergo": 98,
-            "vertical": 306,
-            "horizontal": 200,
+            "ergo": 77,
+            "vertical": 425,
+            "horizontal": 310,
             "ammo": {
-                "name": "9x19 AP 6.3",
-                "type": "Universal",
-                "damage": 52,
-                "penetration": 30,
+                "name": "9x19mm Luger CCI",
+                "type": "Soft targets",
+                "damage": 70,
+                "penetration": 10,
                 "magazines": [
                     {
-                        "name": "Chiappa Rhino 9x19 6-round cylinder",
-                        "count": 0
+                        "name": "MP-443 Grach 9x19 18-round magazine",
+                        "count": 1
                     }
                 ]
             }
         },
         "armor": {
-            "name": "6B23-2 body armor (Mountain Flora)",
+            "name": "Interceptor OTV body armor (UCP)",
             "areas": [
                 {
-                    "name": "F. plate",
-                    "level": 5,
-                    "points": 40,
-                    "pointsmax": 50
-                },
-                {
-                    "name": "Bck. plate",
-                    "level": 5,
-                    "points": 40,
-                    "pointsmax": 50
-                },
-                {
                     "name": "Thorax",
-                    "level": 3,
-                    "points": 60,
-                    "pointsmax": 60
+                    "level": 2,
+                    "points": 48,
+                    "pointsmax": 48
                 },
                 {
                     "name": "Stomach",
-                    "level": 3,
-                    "points": 60,
-                    "pointsmax": 60
+                    "level": 2,
+                    "points": 48,
+                    "pointsmax": 48
                 },
                 {
                     "name": "Upper back",
-                    "level": 3,
-                    "points": 60,
-                    "pointsmax": 60
+                    "level": 2,
+                    "points": 48,
+                    "pointsmax": 48
                 },
                 {
                     "name": "Lower back",
-                    "level": 3,
-                    "points": 60,
-                    "pointsmax": 60
+                    "level": 2,
+                    "points": 48,
+                    "pointsmax": 48
                 },
                 {
                     "name": "Left side",
-                    "level": 3,
-                    "points": 15,
-                    "pointsmax": 15
+                    "level": 2,
+                    "points": 18,
+                    "pointsmax": 18
                 },
                 {
                     "name": "Right side",
-                    "level": 3,
-                    "points": 15,
-                    "pointsmax": 15
-                },
-                {
-                    "name": "Throat",
-                    "level": 3,
-                    "points": 15,
-                    "pointsmax": 15
-                },
-                {
-                    "name": "Back neck",
-                    "level": 3,
-                    "points": 15,
-                    "pointsmax": 15
+                    "level": 2,
+                    "points": 18,
+                    "pointsmax": 18
                 }
             ]
         },
@@ -415,17 +389,12 @@
                 "name": "Aluminum splint",
                 "uses": 2
             }
-        ],
-        "helmet": {
-            "name": "NFM HJELM helmet (Hellhound Grey)",
-            "level": 3,
-            "ricochet": "High"
-        }
-    },
+        ]
+    },{},
     {
         "name": "Argument",
         "mp": "151",
-        "connection": "topleft",
+        "connection": "top",
         "primary": {
             "name": "Molot Arms VPO-209 .366 TKM carbine",
             "modes": [

@@ -21,6 +21,7 @@ function getImageUrl(img: string): string {
 
 function getItemImageUrl(folder: string, img: string): string {
     let new_string: string = img.replace(/ /g, "_")
+    console.log(`/src/assets/${folder}/${new_string.toLowerCase()}.webp`)
     return new URL(`/src/assets/${folder}/${new_string.toLowerCase()}.webp`, import.meta.url).href
 }
 
@@ -138,7 +139,7 @@ function updateTooltip(event: MouseEvent): void {
             </div>
             <div class="flex h-1/2 content-around justify-around items-center">
                 <div class="border-2 border-gray-500 small-square">
-                    <img :src="getImageUrl('meds')" alt="">
+                    <img :src="getItemImageUrl('meds/black', preset.meds[0].name)" alt="">
                     <div class="item-info-container" @mousemove="updateTooltip">
                         <div class="item-info" :class="{'tooltip-left': (tooltip === 'left'), 'tooltip-right': (tooltip === 'right')}">
                             <div v-for="(med) in preset.meds" class="flex justify-between items-center">
