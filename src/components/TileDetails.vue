@@ -4,6 +4,7 @@ import no_helmet from '/src/assets/no_helmet.webp'
 import no_secondary from '/src/assets/no_secondary.webp'
 import no_armor from '/src/assets/no_armor.webp'
 import no_grenades from '/src/assets/no_grenades.webp'
+import no_comms from '/src/assets/no_comms.webp'
 
 interface Props {
     CURR_TREE: string,
@@ -136,7 +137,8 @@ function updateTooltip(event: MouseEvent): void {
                     </div>
                 </div>
             </div>
-            <div class="flex h-1/2 content-around justify-around items-center">
+            <div class="flex h-1/2 content-around justify-around items-start">
+                <div class="w-1"></div>
                 <div class="border-2 border-gray-500 small-square">
                     <img :src="getItemImageUrl('meds/black', preset.meds[0].name)" alt="">
                     <div class="item-info-container" @mousemove="updateTooltip">
@@ -159,8 +161,17 @@ function updateTooltip(event: MouseEvent): void {
                             </div>
                         </div>
                     </div>
-
                 </div>
+                <div class="border-2 border-gray-500 small-square">
+                    <img v-if="preset.comms" :src="getItemImageUrl('comms', preset.comms)" alt="">
+                    <img v-else :src="no_comms" alt="">
+                    <div v-if="preset.comms" class="item-info-container" @mousemove="updateTooltip">
+                        <div class="item-info" :class="{'tooltip-left': (tooltip === 'left'), 'tooltip-right': (tooltip === 'right')}">
+                            <h1 class="text-center bg-slate-950 font-bold border-gray-500 border-b-2 text-nowrap px-2">{{ preset.comms }}</h1>  
+                        </div>
+                    </div>
+                </div>
+                <div class="w-1"></div>
             </div>
         </div>
     </div>

@@ -9,7 +9,8 @@ interface Preset {
     helmet?: Helmet,
     meds: Med[],
     grenades?: Grenade[],
-    connection: string
+    connection: string,
+    comms?: string
 }
 
 interface Weapon {
