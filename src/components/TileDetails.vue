@@ -22,6 +22,7 @@ function getImageUrl(img: string): string {
 
 function getItemImageUrl(folder: string, img: string): string {
     let new_string: string = img.replace(/ /g, "_")
+    console.log(`/src/assets/${folder}/${new_string.toLowerCase()}.webp`)
     return new URL(`/src/assets/${folder}/${new_string.toLowerCase()}.webp`, import.meta.url).href
 }
 
@@ -167,7 +168,7 @@ function updateTooltip(event: MouseEvent): void {
                     <img v-else :src="no_comms" alt="">
                     <div v-if="preset.comms" class="item-info-container" @mousemove="updateTooltip">
                         <div class="item-info" :class="{'tooltip-left': (tooltip === 'left'), 'tooltip-right': (tooltip === 'right')}">
-                            <h1 class="text-center bg-slate-950 font-bold border-gray-500 border-b-2 text-nowrap px-2">{{ preset.comms }}</h1>  
+                            <h1 class="text-center bg-slate-950 font-bold text-nowrap px-2 pb-1">{{ preset.comms }}</h1>  
                         </div>
                     </div>
                 </div>
