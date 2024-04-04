@@ -9,7 +9,8 @@ import no_comms from '/src/assets/no_comms.webp'
 interface Props {
     CURR_TREE: string,
     preset: Preset,
-    details_visible: boolean
+    details_visible: boolean,
+    tier: number
 }
 
 const props = defineProps<Props>()
@@ -17,7 +18,7 @@ const props = defineProps<Props>()
 let tooltip = ref('right')
 
 function getImageUrl(img: string): string {
-    return new URL(`/src/assets/${props.CURR_TREE}/${props.preset.name}/${img}.webp`, import.meta.url).href
+    return new URL(`/src/assets/${props.CURR_TREE}/tier${props.tier}/${props.preset.name}/${img}.webp`, import.meta.url).href
 }
 
 function getItemImageUrl(folder: string, img: string): string {

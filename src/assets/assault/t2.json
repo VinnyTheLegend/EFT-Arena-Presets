@@ -1,0 +1,118 @@
+[
+    {
+        "name": "Leery",
+        "mp": "169",
+        "primary": {
+            "name": "Lone Star TX-15 DML 5.56x45 carbine",
+            "modes": [
+                "single"
+            ],
+            "rpm": 800,
+            "ergo": 60,
+            "vertical": 69,
+            "horizontal": 196,
+            "ammo": {
+                "name": "5.56x45mm FMJ",
+                "type": "Universal",
+                "damage": 59,
+                "penetration": 23,
+                "magazines": [
+                    {
+                        "name": "5.56x45mm Magpul PMAG 20 GEN M3 STANAG 20-round magazine",
+                        "count": 3
+                    }
+                ]
+            }
+        },
+        "secondary": {
+            "name": "SIG P226R 9x19 pistol",
+            "modes": [
+                "single"
+            ],
+            "rpm": 30,
+            "ergo": 83,
+            "vertical": 372,
+            "horizontal": 267,
+            "ammo": {
+                "name": "9x19mm FMJ M882",
+                "type": "Universal",
+                "damage": 56,
+                "penetration": 18,
+                "magazines": [
+                    {
+                        "name": "P226 9x19 15-round magazine",
+                        "count": 1
+                    }
+                ]
+            }
+        },
+        "armor": {
+            "name": "6B23-2 body armor (Mountain Flora)",
+            "areas": [
+                {
+                    "name": "Thorax",
+                    "level": 2,
+                    "points": 17,
+                    "pointsmax": 25
+                },
+                {
+                    "name": "Stomach",
+                    "level": 2,
+                    "points": 17,
+                    "pointsmax": 25
+                },
+                {
+                    "name": "Upper back",
+                    "level": 2,
+                    "points": 17,
+                    "pointsmax": 25
+                },
+                {
+                    "name": "Lower back",
+                    "level": 2,
+                    "points": 17,
+                    "pointsmax": 25
+                },
+                {
+                    "name": "Left side",
+                    "level": 2,
+                    "points": 7,
+                    "pointsmax": 10
+                },
+                {
+                    "name": "Right side",
+                    "level": 2,
+                    "points": 7,
+                    "pointsmax": 10
+                }
+            ]
+        },
+        "meds": [
+            {
+                "name": "IFAK individual first aid kit",
+                "uses": 300
+            },
+            {
+                "name": "Analgin painkillers",
+                "uses": 3
+            },
+            {
+                "name": "Esmarch tourniquet",
+                "uses": 2
+            },
+            {
+                "name": "Army bandage",
+                "uses": 2
+            },
+            {
+                "name": "Aluminum splint",
+                "uses": 2
+            }
+        ],
+        "helmet": {
+            "name": "6B47 Ratnik-BSh helmet (Digital Flora cover)",
+            "level": 3,
+            "ricochet": "High"
+        }
+    }
+]
