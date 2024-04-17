@@ -54,7 +54,9 @@ function getImageUrl(img: string): string {
         </div>
         <TileDetails :details_visible="details_visible" :CURR_TREE="props.CURR_TREE" :preset="props.preset" :tier="props.tier"/>
     </div>
-    <div class="relative preset-tile" v-else></div>
+    <div class="relative preset-tile" v-else>
+        <Line v-if="preset.connection" :linetype="preset.connection"/>
+    </div>
 </template>
 
 <style scoped>

@@ -322,7 +322,7 @@
         ]
     },
     {},
-    {"connection": "top"},
+    {},
     {
         "name": "Charged",
         "connection": "topleft",
