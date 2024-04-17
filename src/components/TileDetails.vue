@@ -116,10 +116,10 @@ function updateTooltip(event: MouseEvent): void {
                     <img v-else :src="no_armor" alt="">
                     <div v-if="preset.armor" class="item-info-container" @mousemove="updateTooltip">
                         <div class="item-info" :class="{'tooltip-left': (tooltip === 'left'), 'tooltip-right': (tooltip === 'right')}">
-                            <h1 class="text-center bg-slate-950 font-bold border-gray-500 border-b-2 text-nowrap px-2">{{ preset.armor.name }}</h1>
+                            <h1 class="text-center bg-slate-950 font-bold border-gray-500 border-b-2 text-nowrap px-2" style="min-width: 15rem">{{ preset.armor.name }}</h1>
                             <div v-for="(area) in preset.armor.areas" class="grid grid-cols-3 justify-between">
                                 <span class="pl-2 text-nowrap">{{ area.name }}</span>
-                                <span class="text-nowrap text-center">Lvl: {{ area.level }}</span>
+                                <span class="text-nowrap text-end">Lvl: {{ area.level }}</span>
                                 <span class="pr-2 text-nowrap text-end"> {{ area.points }}/{{ area.pointsmax }}</span>
                             </div>
                         </div>

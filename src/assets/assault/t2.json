@@ -1,47 +1,201 @@
 [
     {
-        "name": "Leery",
-        "mp": "169",
+        "name": "Paratrooper",
+        "mp": "381",
         "primary": {
-            "name": "Lone Star TX-15 DML 5.56x45 carbine",
+            "name": "Kalashnikov AKS-74 5.45x39 assault rifle",
             "modes": [
-                "single"
+                "single",
+                "full auto"
             ],
-            "rpm": 800,
-            "ergo": 60,
-            "vertical": 69,
-            "horizontal": 196,
+            "rpm": 650,
+            "ergo": 67,
+            "vertical": 74,
+            "horizontal": 200,
             "ammo": {
-                "name": "5.56x45mm FMJ",
+                "name": "5.45x39mm PP gs",
                 "type": "Universal",
-                "damage": 59,
-                "penetration": 23,
+                "damage": 50,
+                "penetration": 34,
                 "magazines": [
                     {
-                        "name": "5.56x45mm Magpul PMAG 20 GEN M3 STANAG 20-round magazine",
+                        "name": "AK-74 5.45x39 6L23 'Plum' 30-round magazine",
                         "count": 3
                     }
                 ]
             }
         },
         "secondary": {
-            "name": "SIG P226R 9x19 pistol",
+            "name": "Serdyukov SR-1MP Gyurza 9x21 pistol",
             "modes": [
                 "single"
             ],
             "rpm": 30,
-            "ergo": 83,
-            "vertical": 372,
-            "horizontal": 267,
+            "ergo": 64,
+            "vertical": 411,
+            "horizontal": 302,
             "ammo": {
-                "name": "9x19mm FMJ M882",
+                "name": "9x21mm BT gzh",
                 "type": "Universal",
-                "damage": 56,
-                "penetration": 18,
+                "damage": 49,
+                "penetration": 32,
                 "magazines": [
                     {
-                        "name": "P226 9x19 15-round magazine",
-                        "count": 1
+                        "name": "SR-1MP 9x21 18-round magazine",
+                        "count": 2
+                    }
+                ]
+            }
+        },
+        "armor": {
+            "name": "6B13 assault armor (Flora)",
+            "areas": [
+                {
+                    "name": "F. plate",
+                    "level": 4,
+                    "points": 17,
+                    "pointsmax": 50
+                },
+                {
+                    "name": "Bck. plate",
+                    "level": 4,
+                    "points": 15,
+                    "pointsmax": 45
+                },
+                {
+                    "name": "Thorax",
+                    "level": 2,
+                    "points": 34,
+                    "pointsmax": 34
+                },
+                {
+                    "name": "Stomach",
+                    "level": 2,
+                    "points": 34,
+                    "pointsmax": 34
+                },
+                {
+                    "name": "Upper back",
+                    "level": 2,
+                    "points": 34,
+                    "pointsmax": 34
+                },
+                {
+                    "name": "Lower back",
+                    "level": 2,
+                    "points": 34,
+                    "pointsmax": 34
+                },
+                {
+                    "name": "Left side",
+                    "level": 2,
+                    "points": 6,
+                    "pointsmax": 6
+                },
+                {
+                    "name": "Right side",
+                    "level": 2,
+                    "points": 6,
+                    "pointsmax": 6
+                },
+                {
+                    "name": "Throat",
+                    "level": 2,
+                    "points": 14,
+                    "pointsmax": 14
+                },
+                {
+                    "name": "Back neck",
+                    "level": 2,
+                    "points": 14,
+                    "pointsmax": 14
+                },
+                {
+                    "name": "Groin",
+                    "level": 2,
+                    "points": 14,
+                    "pointsmax": 14
+                }
+            ]
+        },
+        "meds": [
+            {
+                "name": "IFAK individual first aid kit",
+                "uses": 300
+            },
+            {
+                "name": "L1 (Norepinephrine) injector",
+                "uses": 1
+            },
+            {
+                "name": "Adrenaline injector",
+                "uses": 1
+            },
+            {
+                "name": "CALOK-B hemostatic applicator",
+                "uses": 3
+            },
+            {
+                "name": "Army bandage",
+                "uses": 2
+            },
+            {
+                "name": "Aluminum splint",
+                "uses": 3
+            }
+        ],
+        "helmet": {
+            "name": "6B47 Ratnik-BSh helmet (Olive Drab)",
+            "level": 3,
+            "ricochet": "High"
+        }
+    },
+    {},
+    {
+        "name": "Leery",
+        "mp": "358",
+        "primary": {
+            "name": "Kalashnikov AKMN 7.62x39 assault rifle",
+            "modes": [
+                "single",
+                "full auto"
+            ],
+            "rpm": 600,
+            "ergo": 50,
+            "vertical": 80,
+            "horizontal": 199,
+            "ammo": {
+                "name": "7.62x39mm T-45M1 gzh",
+                "type": "Universal",
+                "damage": 64,
+                "penetration": 30,
+                "magazines": [
+                    {
+                        "name": "AK 7.62x39mm 30-round magazine (issued '55 or later)",
+                        "count": 4
+                    }
+                ]
+            }
+        },
+        "secondary": {
+            "name": "Stechkin APS 9x18PM machine pistol",
+            "modes": [
+                "single",
+                "full auto"
+            ],
+            "rpm": 750,
+            "ergo": 72,
+            "vertical": 328,
+            "horizontal": 260,
+            "ammo": {
+                "name": "9x18mm PM PBM gzh",
+                "type": "Universal",
+                "damage": 40,
+                "penetration": 28,
+                "magazines": [
+                    {
+                        "name": "AOS 9x18PM 20-round magazine",
+                        "count": 2
                     }
                 ]
             }
@@ -50,40 +204,76 @@
             "name": "6B23-2 body armor (Mountain Flora)",
             "areas": [
                 {
-                    "name": "Thorax",
-                    "level": 2,
-                    "points": 17,
-                    "pointsmax": 25
+                    "name": "F. plate",
+                    "level": 5,
+                    "points": 24,
+                    "pointsmax": 60
+                },
+                {
+                    "name": "Bck. plate",
+                    "level": 4,
+                    "points": 28,
+                    "pointsmax": 40
                 },
                 {
                     "name": "Stomach",
                     "level": 2,
-                    "points": 17,
-                    "pointsmax": 25
+                    "points": 52,
+                    "pointsmax": 52
+                },
+                {
+                    "name": "Thorax",
+                    "level": 2,
+                    "points": 52,
+                    "pointsmax": 52
                 },
                 {
                     "name": "Upper back",
                     "level": 2,
-                    "points": 17,
-                    "pointsmax": 25
+                    "points": 52,
+                    "pointsmax": 52
                 },
                 {
                     "name": "Lower back",
                     "level": 2,
-                    "points": 17,
-                    "pointsmax": 25
+                    "points": 52,
+                    "pointsmax": 52
                 },
                 {
                     "name": "Left side",
                     "level": 2,
-                    "points": 7,
-                    "pointsmax": 10
+                    "points": 8,
+                    "pointsmax": 8
                 },
                 {
                     "name": "Right side",
                     "level": 2,
-                    "points": 7,
+                    "points": 8,
+                    "pointsmax": 8
+                },
+                {
+                    "name": "Throat",
+                    "level": 2,
+                    "points": 14,
+                    "pointsmax": 14
+                },
+                {
+                    "name": "Back neck",
+                    "level": 2,
+                    "points": 14,
+                    "pointsmax": 14
+                },
+                {
+                    "name": "Groin",
+                    "level": 2,
+                    "points": 10,
                     "pointsmax": 10
+                },
+                {
+                    "name": "Buttocks",
+                    "level": 2,
+                    "points": 12,
+                    "pointsmax": 12
                 }
             ]
         },
@@ -108,11 +298,6 @@
                 "name": "Aluminum splint",
                 "uses": 2
             }
-        ],
-        "helmet": {
-            "name": "6B47 Ratnik-BSh helmet (Digital Flora cover)",
-            "level": 3,
-            "ricochet": "High"
-        }
+        ]
     }
 ]
