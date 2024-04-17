@@ -130,10 +130,18 @@ function updateTooltip(event: MouseEvent): void {
                     <img v-else :src="no_helmet" alt="">
                     <div v-if="preset.helmet" class="item-info-container" @mousemove="updateTooltip">
                         <div class="item-info" :class="{'tooltip-left': (tooltip === 'left'), 'tooltip-right': (tooltip === 'right')}">
-                            <h1 class="text-center bg-slate-950 font-bold border-gray-500 border-b-2 text-nowrap px-2">{{ preset.helmet.name }}</h1>
-                            <div class="grid grid-cols-2 justify-between">
-                                <span class="pl-2 text-nowrap">Lvl: {{ preset.helmet.level }}</span>
-                                <span class="pr-2 text-nowrap text-end">Ricochet: {{ preset.helmet.ricochet }}</span>
+                            <h1 class="text-center bg-slate-950 font-bold border-gray-500 border-b-2 text-nowrap px-2" style="min-width: 28rem">{{ preset.helmet.name }}</h1>
+                            <div class="grid grid-cols-4 justify-between">
+                                <span class="pl-2 text-nowrap text-center">Area</span>
+                                <span class="text-nowrap text-center">Richochet chance</span>
+                                <span class="text-nowrap text-center">Lvl</span>
+                                <span class="pr-2 text-nowrap text-center">Hit points</span>
+                            </div>
+                            <div v-for="(area) in preset.helmet.areas" class="grid grid-cols-4 justify-between text-gray-400">
+                                <span class="text-center text-nowrap">{{ area.name }}</span>
+                                <span class="text-nowrap text-center">{{ area.ricochet }}</span>
+                                <span class="text-nowrap text-center">{{ area.level }}</span>
+                                <span class="text-nowrap text-center"> {{ area.points }}/{{ area.pointsmax }}</span>
                             </div>
                         </div>
                     </div>

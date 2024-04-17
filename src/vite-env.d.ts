@@ -50,9 +50,11 @@ interface Area {
 
 interface Helmet {
     name: string,
-    level: number,
-    ricochet: string,
-    points: number
+    areas: HelmArea[]
+}
+
+interface HelmArea extends Area {
+    ricochet: string
 }
 
 interface Med {
