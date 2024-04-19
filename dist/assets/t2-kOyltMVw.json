@@ -1,0 +1,868 @@
+[
+    {
+        "name": "Paratrooper",
+        "mp": "381",
+        "primary": {
+            "name": "Kalashnikov AKS-74 5.45x39 assault rifle",
+            "modes": [
+                "single",
+                "full auto"
+            ],
+            "rpm": 650,
+            "ergo": 67,
+            "vertical": 74,
+            "horizontal": 200,
+            "ammo": {
+                "name": "5.45x39mm PP gs",
+                "type": "Universal",
+                "damage": 50,
+                "penetration": 34,
+                "magazines": [
+                    {
+                        "name": "AK-74 5.45x39 6L23 'Plum' 30-round magazine",
+                        "count": 3
+                    }
+                ]
+            }
+        },
+        "secondary": {
+            "name": "Serdyukov SR-1MP Gyurza 9x21 pistol",
+            "modes": [
+                "single"
+            ],
+            "rpm": 30,
+            "ergo": 64,
+            "vertical": 411,
+            "horizontal": 302,
+            "ammo": {
+                "name": "9x21mm BT gzh",
+                "type": "Universal",
+                "damage": 49,
+                "penetration": 32,
+                "magazines": [
+                    {
+                        "name": "SR-1MP 9x21 18-round magazine",
+                        "count": 2
+                    }
+                ]
+            }
+        },
+        "armor": {
+            "name": "6B13 assault armor (Flora)",
+            "areas": [
+                {
+                    "name": "F. plate",
+                    "level": 4,
+                    "points": 17,
+                    "pointsmax": 50
+                },
+                {
+                    "name": "Bck. plate",
+                    "level": 4,
+                    "points": 15,
+                    "pointsmax": 45
+                },
+                {
+                    "name": "Thorax",
+                    "level": 2,
+                    "points": 34,
+                    "pointsmax": 34
+                },
+                {
+                    "name": "Stomach",
+                    "level": 2,
+                    "points": 34,
+                    "pointsmax": 34
+                },
+                {
+                    "name": "Upper back",
+                    "level": 2,
+                    "points": 34,
+                    "pointsmax": 34
+                },
+                {
+                    "name": "Lower back",
+                    "level": 2,
+                    "points": 34,
+                    "pointsmax": 34
+                },
+                {
+                    "name": "Left side",
+                    "level": 2,
+                    "points": 6,
+                    "pointsmax": 6
+                },
+                {
+                    "name": "Right side",
+                    "level": 2,
+                    "points": 6,
+                    "pointsmax": 6
+                },
+                {
+                    "name": "Throat",
+                    "level": 2,
+                    "points": 14,
+                    "pointsmax": 14
+                },
+                {
+                    "name": "Back neck",
+                    "level": 2,
+                    "points": 14,
+                    "pointsmax": 14
+                },
+                {
+                    "name": "Groin",
+                    "level": 2,
+                    "points": 14,
+                    "pointsmax": 14
+                }
+            ]
+        },
+        "meds": [
+            {
+                "name": "IFAK individual first aid kit",
+                "uses": 300
+            },
+            {
+                "name": "L1 (Norepinephrine) injector",
+                "uses": 1
+            },
+            {
+                "name": "Adrenaline injector",
+                "uses": 1
+            },
+            {
+                "name": "CALOK-B hemostatic applicator",
+                "uses": 3
+            },
+            {
+                "name": "Army bandage",
+                "uses": 2
+            },
+            {
+                "name": "Aluminum splint",
+                "uses": 3
+            }
+        ],
+        "helmet": {
+            "name": "6B47 Ratnik-BSh helmet (Olive Drab)",
+            "areas": [
+                {
+                    "name": "Head top",
+                    "ricochet": "High",
+                    "level": 3,
+                    "points": 15,
+                    "pointsmax": 15
+                },
+                {
+                    "name": "Nape",
+                    "ricochet": "High",
+                    "level": 3,
+                    "points": 15,
+                    "pointsmax": 15
+                },
+                {
+                    "name": "Ears",
+                    "ricochet": "High",
+                    "level": 3,
+                    "points": 15,
+                    "pointsmax": 15
+                }
+            ]
+        }
+    },
+    {},
+    {
+        "name": "Leery",
+        "mp": "358",
+        "primary": {
+            "name": "Kalashnikov AKMN 7.62x39 assault rifle",
+            "modes": [
+                "single",
+                "full auto"
+            ],
+            "rpm": 600,
+            "ergo": 50,
+            "vertical": 80,
+            "horizontal": 199,
+            "ammo": {
+                "name": "7.62x39mm T-45M1 gzh",
+                "type": "Universal",
+                "damage": 64,
+                "penetration": 30,
+                "magazines": [
+                    {
+                        "name": "AK 7.62x39mm 30-round magazine (issued '55 or later)",
+                        "count": 4
+                    }
+                ]
+            }
+        },
+        "secondary": {
+            "name": "Stechkin APS 9x18PM machine pistol",
+            "modes": [
+                "single",
+                "full auto"
+            ],
+            "rpm": 750,
+            "ergo": 72,
+            "vertical": 328,
+            "horizontal": 260,
+            "ammo": {
+                "name": "9x18mm PM PBM gzh",
+                "type": "Universal",
+                "damage": 40,
+                "penetration": 28,
+                "magazines": [
+                    {
+                        "name": "AOS 9x18PM 20-round magazine",
+                        "count": 2
+                    }
+                ]
+            }
+        },
+        "armor": {
+            "name": "6B23-2 body armor (Mountain Flora)",
+            "areas": [
+                {
+                    "name": "F. plate",
+                    "level": 5,
+                    "points": 24,
+                    "pointsmax": 60
+                },
+                {
+                    "name": "Bck. plate",
+                    "level": 4,
+                    "points": 28,
+                    "pointsmax": 40
+                },
+                {
+                    "name": "Stomach",
+                    "level": 2,
+                    "points": 52,
+                    "pointsmax": 52
+                },
+                {
+                    "name": "Thorax",
+                    "level": 2,
+                    "points": 52,
+                    "pointsmax": 52
+                },
+                {
+                    "name": "Upper back",
+                    "level": 2,
+                    "points": 52,
+                    "pointsmax": 52
+                },
+                {
+                    "name": "Lower back",
+                    "level": 2,
+                    "points": 52,
+                    "pointsmax": 52
+                },
+                {
+                    "name": "Left side",
+                    "level": 2,
+                    "points": 8,
+                    "pointsmax": 8
+                },
+                {
+                    "name": "Right side",
+                    "level": 2,
+                    "points": 8,
+                    "pointsmax": 8
+                },
+                {
+                    "name": "Throat",
+                    "level": 2,
+                    "points": 14,
+                    "pointsmax": 14
+                },
+                {
+                    "name": "Back neck",
+                    "level": 2,
+                    "points": 14,
+                    "pointsmax": 14
+                },
+                {
+                    "name": "Groin",
+                    "level": 2,
+                    "points": 10,
+                    "pointsmax": 10
+                },
+                {
+                    "name": "Buttocks",
+                    "level": 2,
+                    "points": 12,
+                    "pointsmax": 12
+                }
+            ]
+        },
+        "meds": [
+            {
+                "name": "IFAK individual first aid kit",
+                "uses": 300
+            },
+            {
+                "name": "Analgin painkillers",
+                "uses": 3
+            },
+            {
+                "name": "Esmarch tourniquet",
+                "uses": 2
+            },
+            {
+                "name": "Army bandage",
+                "uses": 2
+            },
+            {
+                "name": "Aluminum splint",
+                "uses": 2
+            }
+        ]
+    },
+    {},
+    {},
+    {
+        "name": "Charged",
+        "connection": "topleft",
+        "mp": "358",
+        "primary": {
+            "name": "SAG AK-545 Short 5.45x39 carbine",
+            "modes": [
+                "single"
+            ],
+            "rpm": 650,
+            "ergo": 77.5,
+            "vertical": 53,
+            "horizontal": 153,
+            "ammo": {
+                "name": "5.45x39mm PP gs",
+                "type": "Universal",
+                "damage": 50,
+                "penetration": 34,
+                "magazines": [
+                    {
+                        "name": "AK-74 5.45x39 Magpul PMAG 30 GEN M3 30-round magazine",
+                        "count": 3
+                    }
+                ]
+            }
+        },
+        "secondary": {
+            "name": "SIG P226R 9x19 pistol",
+            "modes": [
+                "single"
+            ],
+            "rpm": 30,
+            "ergo": 90,
+            "vertical": 356,
+            "horizontal": 256,
+            "ammo": {
+                "name": "9x19mm QuakeMaker",
+                "type": "Expansive",
+                "damage": 85,
+                "penetration": 8,
+                "magazines": [
+                    {
+                        "name": "P226 9x19 20-round extended magazine",
+                        "count": 2
+                    }
+                ]
+            }
+        },
+        "armor": {
+            "name": "NPP KIASS Korund-VM body armor (Black)",
+            "areas": [
+                {
+                    "name": "F. plate",
+                    "level": 5,
+                    "points": 24,
+                    "pointsmax": 60
+                },
+                {
+                    "name": "Bck. plate",
+                    "level": 4,
+                    "points": 32,
+                    "pointsmax": 40
+                },
+                {
+                    "name": "Stomach",
+                    "level": 2,
+                    "points": 40,
+                    "pointsmax": 40
+                },
+                {
+                    "name": "Thorax",
+                    "level": 2,
+                    "points": 40,
+                    "pointsmax": 40
+                },
+                {
+                    "name": "Upper back",
+                    "level": 2,
+                    "points": 40,
+                    "pointsmax": 40
+                },
+                {
+                    "name": "Lower back",
+                    "level": 2,
+                    "points": 40,
+                    "pointsmax": 40
+                },
+                {
+                    "name": "Left side",
+                    "level": 2,
+                    "points": 15,
+                    "pointsmax": 15
+                },
+                {
+                    "name": "Right side",
+                    "level": 2,
+                    "points": 15,
+                    "pointsmax": 15
+                },
+                {
+                    "name": "Throat",
+                    "level": 2,
+                    "points": 10,
+                    "pointsmax": 10
+                },
+                {
+                    "name": "Back neck",
+                    "level": 2,
+                    "points": 10,
+                    "pointsmax": 10
+                },
+                {
+                    "name": "Groin",
+                    "level": 2,
+                    "points": 20,
+                    "pointsmax": 20
+                },
+                {
+                    "name": "Buttocks",
+                    "level": 2,
+                    "points": 20,
+                    "pointsmax": 20
+                }
+            ]
+        },
+        "meds": [
+            {
+                "name": "IFAK individual first aid kit",
+                "uses": 300
+            },
+            {
+                "name": "Analgin painkillers",
+                "uses": 3
+            },
+            {
+                "name": "Esmarch tourniquet",
+                "uses": 2
+            },
+            {
+                "name": "Army bandage",
+                "uses": 2
+            },
+            {
+                "name": "Aluminum splint",
+                "uses": 2
+            }
+        ],
+        "helmet": {
+            "name": "Diamond Age NeoSteel High Cut helmet (Black)",
+            "areas": [
+                {
+                    "name": "Head top",
+                    "ricochet": "High",
+                    "level": 3,
+                    "points": 36,
+                    "pointsmax": 36
+                },
+                {
+                    "name": "Nape",
+                    "ricochet": "High",
+                    "level": 3,
+                    "points": 36,
+                    "pointsmax": 36
+                }
+            ]
+        },
+        "comms": "OPSMEN Earmor M32 headset"
+    },
+    {
+        "name": "Sector",
+        "connection": "left",
+        "mp": "356",
+        "primary": {
+            "name": "HK G36 5.56x45 assault rifle",
+            "modes": [
+                "single",
+                "burst",
+                "full auto"
+            ],
+            "rpm": 750,
+            "ergo": 50.5,
+            "vertical": 67,
+            "horizontal": 208,
+            "ammo": {
+                "name": "5.56x45mm M855",
+                "type": "Universal",
+                "damage": 57,
+                "penetration": 31,
+                "magazines": [
+                    {
+                        "name": "HK G36 5.56x45 30-round magazine",
+                        "count": 4
+                    }
+                ]
+            }
+        },
+        "secondary": {
+            "name": "HK USP .45 ACP pistol",
+            "modes": [
+                "single"
+            ],
+            "rpm": 30,
+            "ergo": 70,
+            "vertical": 332,
+            "horizontal": 239,
+            "ammo": {
+                "name": ".45 ACP Match FMJ",
+                "type": "Universal",
+                "damage": 72,
+                "penetration": 25,
+                "magazines": [
+                    {
+                        "name": "HK USP .45 ACP 12-round magazine",
+                        "count": 2
+                    }
+                ]
+            }
+        },
+        "armor": {
+            "name": "6B23-2 body armor (Mountain Flora)",
+            "areas": [
+                {
+                    "name": "F. plate",
+                    "level": 4,
+                    "points": 24,
+                    "pointsmax": 25
+                },
+                {
+                    "name": "Bck. plate",
+                    "level": 4,
+                    "points": 24,
+                    "pointsmax": 25
+                },
+                {
+                    "name": "Thorax",
+                    "level": 2,
+                    "points": 42,
+                    "pointsmax": 42
+                },
+                {
+                    "name": "Stomach",
+                    "level": 2,
+                    "points": 42,
+                    "pointsmax": 42
+                },
+                {
+                    "name": "Upper back",
+                    "level": 2,
+                    "points": 42,
+                    "pointsmax": 42
+                },
+                {
+                    "name": "Lower back",
+                    "level": 2,
+                    "points": 42,
+                    "pointsmax": 42
+                },
+                {
+                    "name": "Groin",
+                    "level": 2,
+                    "points": 28,
+                    "pointsmax": 28
+                }
+            ]
+        },
+        "meds": [
+            {
+                "name": "IFAK individual first aid kit",
+                "uses": 300
+            },
+            {
+                "name": "Analgin painkillers",
+                "uses": 3
+            },
+            {
+                "name": "Esmarch tourniquet",
+                "uses": 2
+            },
+            {
+                "name": "Army bandage",
+                "uses": 2
+            },
+            {
+                "name": "Aluminum splint",
+                "uses": 2
+            }
+        ],
+        "helmet": {
+            "name": "Diamond Age Bastion helmet (Black)",
+            "areas": [
+                {
+                    "name": "Head top",
+                    "ricochet": "High",
+                    "level": 4,
+                    "points": 13,
+                    "pointsmax": 24
+                },
+                {
+                    "name": "Nape",
+                    "ricochet": "High",
+                    "level": 4,
+                    "points": 13,
+                    "pointsmax": 24
+                }
+            ]
+        }
+    },
+    {
+        "name": "Bunker",
+        "connection": "left",
+        "mp": "353",
+        "primary": {
+            "name": "Kalashnikov AK-74M 5.45x39 assault rifle",
+            "modes": [
+                "single",
+                "full auto"
+            ],
+            "rpm": 650,
+            "ergo": 63,
+            "vertical": 63,
+            "horizontal": 169,
+            "ammo": {
+                "name": "5.45x39mm PS gs",
+                "type": "Universal",
+                "damage": 53,
+                "penetration": 28,
+                "magazines": [
+                    {
+                        "name": "AK-74 5.45x39 Magpul PMAG 30 GEN M3 30-round magazine",
+                        "count": 4
+                    }
+                ]
+            }
+        },
+        "secondary": {
+            "name": "Lebedev PL-15 9x19 pistol",
+            "modes": [
+                "single"
+            ],
+            "rpm": 30,
+            "ergo": 76,
+            "vertical": 236,
+            "horizontal": 214,
+            "ammo": {
+                "name": "9x19mm AP 6.3",
+                "type": "Universal",
+                "damage": 52,
+                "penetration": 30,
+                "magazines": [
+                    {
+                        "name": "PL-15 9x19 16-round magazine",
+                        "count": 3
+                    }
+                ]
+            }
+        },
+        "armor": {
+            "name": "WARTECH TV-110 plate carrier (Coyote)",
+            "areas": [
+                {
+                    "name": "F. plate",
+                    "level": 4,
+                    "points": 36,
+                    "pointsmax": 45
+                },
+                {
+                    "name": "Bck. plate",
+                    "level": 4,
+                    "points": 36,
+                    "pointsmax": 45
+                }
+            ]
+        },
+        "meds": [
+            {
+                "name": "IFAK individual first aid kit",
+                "uses": 300
+            },
+            {
+                "name": "Analgin painkillers",
+                "uses": 3
+            },
+            {
+                "name": "Esmarch tourniquet",
+                "uses": 2
+            },
+            {
+                "name": "Army bandage",
+                "uses": 2
+            },
+            {
+                "name": "Aluminum splint",
+                "uses": 2
+            }
+        ],
+        "comms": "GSSh-01 active headset"
+    },
+    {
+        "name": "Werewolf",
+        "connection": "top2",
+        "mp": "379",
+        "primary": {
+            "name": "Kalashnikov AK-101 5.56x45 assault rifle",
+            "modes": [
+                "single",
+                "full auto"
+            ],
+            "rpm": 650,
+            "ergo": 61,
+            "vertical": 71,
+            "horizontal": 198,
+            "ammo": {
+                "name": "5.56x45mm MK 318 Mod 0 (SOST)",
+                "type": "Universal",
+                "damage": 55,
+                "penetration": 33,
+                "magazines": [
+                    {
+                        "name": "SLR-106/AK 5.56x45 Circle 10 30-round magazine",
+                        "count": 3
+                    }
+                ]
+            }
+        },
+        "secondary": {
+            "name": "Glock 17 9x19 pistol",
+            "modes": [
+                "single"
+            ],
+            "rpm": 30,
+            "ergo": 87,
+            "vertical": 302,
+            "horizontal": 252,
+            "ammo": {
+                "name": "9x19mm AP 6.3",
+                "type": "Universal",
+                "damage": 52,
+                "penetration": 30,
+                "magazines": [
+                    {
+                        "name": "Glock 9x19 17-round magazine",
+                        "count": 2
+                    }
+                ]
+            }
+        },
+        "armor": {
+            "name": "NPP KIASS Korund-VM body armor (Black)",
+            "areas": [
+                {
+                    "name": "F. plate",
+                    "level": 5,
+                    "points": 27,
+                    "pointsmax": 55
+                },
+                {
+                    "name": "Bck. plate",
+                    "level": 4,
+                    "points": 22,
+                    "pointsmax": 45
+                },
+                {
+                    "name": "Thorax",
+                    "level": 3,
+                    "points": 40,
+                    "pointsmax": 40
+                },
+                {
+                    "name": "Stomach",
+                    "level": 3,
+                    "points": 40,
+                    "pointsmax": 40
+                },
+                {
+                    "name": "Lower back",
+                    "level": 3,
+                    "points": 40,
+                    "pointsmax": 40
+                },
+                {
+                    "name": "Upper back",
+                    "level": 3,
+                    "points": 40,
+                    "pointsmax": 40
+                },
+                {
+                    "name": "Left side",
+                    "level": 3,
+                    "points": 8,
+                    "pointsmax": 8
+                },
+                {
+                    "name": "Right side",
+                    "level": 3,
+                    "points": 8,
+                    "pointsmax": 8
+                }
+            ]
+        },
+        "meds": [
+            {
+                "name": "IFAK individual first aid kit",
+                "uses": 300
+            },
+            {
+                "name": "Analgin painkillers",
+                "uses": 3
+            },
+            {
+                "name": "Esmarch tourniquet",
+                "uses": 2
+            },
+            {
+                "name": "Army bandage",
+                "uses": 2
+            },
+            {
+                "name": "Aluminum splint",
+                "uses": 2
+            }
+        ],
+        "helmet": {
+            "name": "HighCom Striker ACHHC IIIA helmet (Olive Drab)",
+            "areas": [
+                {
+                    "name": "Head top",
+                    "ricochet": "High",
+                    "level": 4,
+                    "points": 12,
+                    "pointsmax": 18
+                },
+                {
+                    "name": "Nape",
+                    "ricochet": "High",
+                    "level": 4,
+                    "points": 12,
+                    "pointsmax": 18
+                }
+            ]
+        },
+        "comms": "OPSMEN Earmor M32 headset"
+    }
+]
