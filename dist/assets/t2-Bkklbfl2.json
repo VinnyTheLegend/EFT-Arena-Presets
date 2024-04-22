@@ -864,5 +864,282 @@
             ]
         },
         "comms": "OPSMEN Earmor M32 headset"
+    },
+    {
+        "name": "Slicker",
+        "connection": "top",
+        "mp": "349",
+        "primary": {
+            "name": "Steyr AUG A1 5.56x45 assault rifle",
+            "modes": [
+                "single",
+                "full auto"
+            ],
+            "rpm": 715,
+            "ergo": 68,
+            "vertical": 46,
+            "horizontal": 178,
+            "ammo": {
+                "name": "5.56x45mm M855",
+                "type": "Universal",
+                "damage": 57,
+                "penetration": 31,
+                "magazines": [
+                    {
+                        "name": "Steyr AUG 5.56x45 30-round magazine",
+                        "count": 4
+                    }
+                ]
+            }
+        },
+        "secondary": {
+            "name": "Chiappa Rhino 50DS .357 revolver",
+            "modes": [
+                "single",
+                "double action"
+            ],
+            "rpm": 30,
+            "ergo": 81,
+            "vertical": 383,
+            "horizontal": 280,
+            "ammo": {
+                "name": ".357 Magnum FMJ",
+                "type": "Universal",
+                "damage": 70,
+                "penetration": 35,
+                "magazines": [
+                    {
+                        "name": "Chiappa Rhino .357 6-round cylinder",
+                        "count": 1
+                    }
+                ]
+            }
+        },
+        "armor": {
+            "name": "NFM THOR Concealable Reinforced Vest body armor",
+            "areas": [
+                {
+                    "name": "F. plate",
+                    "level": 4,
+                    "points": 22,
+                    "pointsmax": 45
+                },
+                {
+                    "name": "Bck. plate",
+                    "level": 4,
+                    "points": 22,
+                    "pointsmax": 45
+                },
+                {
+                    "name": "Thorax",
+                    "level": 3,
+                    "points": 25,
+                    "pointsmax": 25
+                },
+                {
+                    "name": "Stomach",
+                    "level": 3,
+                    "points": 25,
+                    "pointsmax": 25
+                },
+                {
+                    "name": "Lower back",
+                    "level": 3,
+                    "points": 25,
+                    "pointsmax": 25
+                },
+                {
+                    "name": "Upper back",
+                    "level": 3,
+                    "points": 25,
+                    "pointsmax": 25
+                },
+                {
+                    "name": "Left side",
+                    "level": 3,
+                    "points": 10,
+                    "pointsmax": 10
+                },
+                {
+                    "name": "Right side",
+                    "level": 3,
+                    "points": 10,
+                    "pointsmax": 10
+                }
+            ]
+        },
+        "meds": [
+            {
+                "name": "IFAK individual first aid kit",
+                "uses": 300
+            },
+            {
+                "name": "Analgin painkillers",
+                "uses": 3
+            },
+            {
+                "name": "Esmarch tourniquet",
+                "uses": 2
+            },
+            {
+                "name": "Army bandage",
+                "uses": 2
+            },
+            {
+                "name": "Aluminum splint",
+                "uses": 2
+            }
+        ],
+        "comms": "OPSMEN Earmor M32 headset"
+    },
+    {
+        "name": "Rock n Roll",
+        "connection": "top",
+        "mp": "374",
+        "primary": {
+            "name": "Colt M4A1 5.56x45 assault rifle",
+            "modes": [
+                "single",
+                "full auto"
+            ],
+            "rpm": 800,
+            "ergo": 59.5,
+            "vertical": 65,
+            "horizontal": 188,
+            "ammo": {
+                "name": "5.56x45mm M855",
+                "type": "Universal",
+                "damage": 57,
+                "penetration": 31,
+                "magazines": [
+                    {
+                        "name": "5.56x45 Magpul PMAG 30 GEN M3 STANAG 30-round magazine",
+                        "count": 4
+                    }
+                ]
+            }
+        },
+        "secondary": {
+            "name": "Beretta M9A3 9x19 pistol",
+            "modes": [
+                "single"
+            ],
+            "rpm": 30,
+            "ergo": 71,
+            "vertical": 392,
+            "horizontal": 272,
+            "ammo": {
+                "name": "9x19mm AP 6.3",
+                "type": "Universal",
+                "damage": 52,
+                "penetration": 30,
+                "magazines": [
+                    {
+                        "name": "M9A3 9x19 17-round magazine",
+                        "count": 2
+                    }
+                ]
+            }
+        },
+        "armor": {
+            "name": "ECLiPSE RBAV-AF plate carrier (Ranger Green)",
+            "areas": [
+                {
+                    "name": "F. plate",
+                    "level": 4,
+                    "points": 22,
+                    "pointsmax": 45
+                },
+                {
+                    "name": "Bck. plate",
+                    "level": 4,
+                    "points": 22,
+                    "pointsmax": 45
+                },
+                {
+                    "name": "Thorax",
+                    "level": 2,
+                    "points": 36,
+                    "pointsmax": 36
+                },
+                {
+                    "name": "Stomach",
+                    "level": 2,
+                    "points": 36,
+                    "pointsmax": 36
+                },
+                {
+                    "name": "Lower back",
+                    "level": 3,
+                    "points": 36,
+                    "pointsmax": 36
+                },
+                {
+                    "name": "Upper back",
+                    "level": 3,
+                    "points": 36,
+                    "pointsmax": 36
+                },
+                {
+                    "name": "Left side",
+                    "level": 2,
+                    "points": 9,
+                    "pointsmax": 9
+                },
+                {
+                    "name": "Right side",
+                    "level": 2,
+                    "points": 9,
+                    "pointsmax": 9
+                },
+                {
+                    "name": "Groin",
+                    "level": 2,
+                    "points": 18,
+                    "pointsmax": 18
+                }
+            ]
+        },
+        "meds": [
+            {
+                "name": "IFAK individual first aid kit",
+                "uses": 300
+            },
+            {
+                "name": "Analgin painkillers",
+                "uses": 3
+            },
+            {
+                "name": "Esmarch tourniquet",
+                "uses": 2
+            },
+            {
+                "name": "Army bandage",
+                "uses": 2
+            },
+            {
+                "name": "Aluminum splint",
+                "uses": 2
+            }
+        ],
+        "helmet": {
+            "name": "MSA ACH TC-2002 MICH Series helmet (Olive Drab)",
+            "areas": [
+                {
+                    "name": "Head top",
+                    "ricochet": "High",
+                    "level": 4,
+                    "points": 8,
+                    "pointsmax": 16
+                },
+                {
+                    "name": "Nape",
+                    "ricochet": "High",
+                    "level": 4,
+                    "points": 8,
+                    "pointsmax": 16
+                }
+            ]
+        }
     }
 ]
