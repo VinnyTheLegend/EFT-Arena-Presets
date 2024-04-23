@@ -92,7 +92,7 @@ onUpdated(() => {
     <div class="mr-auto self-center"></div>
   </div>
 
-  <div class="border-2 border-green-500 sticky w-full left-0 h-20 flex items-center pl-5 bg-gray-900">
+  <div class="border-2 border-green-500 sticky w-full left-0 h-20 flex items-center pl-5 bg-gray-900 -z-10">
     <h1 class="font-extrabold text-3xl">Tier 3</h1>
   </div>
   <div class="flex">
