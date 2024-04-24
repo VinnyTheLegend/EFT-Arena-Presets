@@ -308,7 +308,7 @@
                 "uses": 3
             },
             {
-                "name": "Esmarch tourniquet",
+                "name": "CALOK-B hemostatic applicator",
                 "uses": 2
             },
             {
@@ -317,7 +317,7 @@
             },
             {
                 "name": "Aluminum splint",
-                "uses": 2
+                "uses": 3
             }
         ]
     },
@@ -458,7 +458,7 @@
                 "uses": 3
             },
             {
-                "name": "Esmarch tourniquet",
+                "name": "CALOK-B hemostatic applicator",
                 "uses": 2
             },
             {
@@ -467,7 +467,7 @@
             },
             {
                 "name": "Aluminum splint",
-                "uses": 2
+                "uses": 3
             }
         ],
         "helmet": {
@@ -598,7 +598,7 @@
                 "uses": 3
             },
             {
-                "name": "Esmarch tourniquet",
+                "name": "CALOK-B hemostatic applicator",
                 "uses": 2
             },
             {
@@ -607,7 +607,7 @@
             },
             {
                 "name": "Aluminum splint",
-                "uses": 2
+                "uses": 3
             }
         ],
         "helmet": {
@@ -706,7 +706,7 @@
                 "uses": 3
             },
             {
-                "name": "Esmarch tourniquet",
+                "name": "CALOK-B hemostatic applicator",
                 "uses": 2
             },
             {
@@ -715,7 +715,7 @@
             },
             {
                 "name": "Aluminum splint",
-                "uses": 2
+                "uses": 3
             }
         ],
         "comms": "GSSh-01 active headset"
@@ -832,7 +832,7 @@
                 "uses": 3
             },
             {
-                "name": "Esmarch tourniquet",
+                "name": "CALOK-B hemostatic applicator",
                 "uses": 2
             },
             {
@@ -841,7 +841,7 @@
             },
             {
                 "name": "Aluminum splint",
-                "uses": 2
+                "uses": 3
             }
         ],
         "helmet": {
@@ -978,7 +978,7 @@
                 "uses": 3
             },
             {
-                "name": "Esmarch tourniquet",
+                "name": "CALOK-B hemostatic applicator",
                 "uses": 2
             },
             {
@@ -987,7 +987,7 @@
             },
             {
                 "name": "Aluminum splint",
-                "uses": 2
+                "uses": 3
             }
         ],
         "comms": "OPSMEN Earmor M32 headset"
@@ -1110,7 +1110,7 @@
                 "uses": 3
             },
             {
-                "name": "Esmarch tourniquet",
+                "name": "CALOK-B hemostatic applicator",
                 "uses": 2
             },
             {
@@ -1119,7 +1119,7 @@
             },
             {
                 "name": "Aluminum splint",
-                "uses": 2
+                "uses": 3
             }
         ],
         "helmet": {
