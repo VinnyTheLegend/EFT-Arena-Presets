@@ -1,0 +1,1506 @@
+[
+    {},
+    {
+        "name": "Pharaoh",
+        "connection": "top",
+        "mp": "549",
+        "primary": {
+            "name": "Kalashnikov AK-74 5.45x39 assault rifle",
+            "modes": [
+                "single",
+                "full auto"
+            ],
+            "rpm": 650,
+            "ergo": 56.5,
+            "vertical": 70,
+            "horizontal": 187,
+            "ammo": {
+                "name": "5.45x39mm 7N40",
+                "type": "Universal",
+                "damage": 52,
+                "penetration": 42,
+                "magazines": [
+                    {
+                        "name": "AK-74 5.45x39 Magpul PMAG 30 GEN M3 30-round magazine",
+                        "count": 5
+                    }
+                ]
+            }
+        },
+        "secondary": {
+            "name": "Glock 19X 9x19 pistol",
+            "modes": [
+                "single"
+            ],
+            "rpm": 30,
+            "ergo": 97.5,
+            "vertical": 293,
+            "horizontal": 242,
+            "ammo": {
+                "name": "9x19mm PBP gzh",
+                "type": "Armor piercing",
+                "damage": 52,
+                "penetration": 39,
+                "magazines": [
+                    {
+                        "name": "Glock 9x19 19-round magazine (Coyote)",
+                        "count": 2
+                    }
+                ]
+            }
+        },
+        "armor": {
+            "name": "IOTV Gen4 body armor (High Mobility Kit, Multicam)",
+            "areas": [
+                {
+                    "name": "F. plate",
+                    "level": 5,
+                    "points": 60,
+                    "pointsmax": 60
+                },
+                {
+                    "name": "Bck. plate",
+                    "level": 5,
+                    "points": 50,
+                    "pointsmax": 50
+                },
+                {
+                    "name": "Stomach",
+                    "level": 3,
+                    "points": 52,
+                    "pointsmax": 52
+                },
+                {
+                    "name": "Thorax",
+                    "level": 3,
+                    "points": 52,
+                    "pointsmax": 52
+                },
+                {
+                    "name": "Lower back",
+                    "level": 3,
+                    "points": 52,
+                    "pointsmax": 52
+                },
+                {
+                    "name": "Upper back",
+                    "level": 3,
+                    "points": 52,
+                    "pointsmax": 52
+                },
+                {
+                    "name": "Left side",
+                    "level": 3,
+                    "points": 20,
+                    "pointsmax": 20
+                },
+                {
+                    "name": "Right side",
+                    "level": 3,
+                    "points": 20,
+                    "pointsmax": 20
+                },
+                {
+                    "name": "Throat",
+                    "level": 3,
+                    "points": 20,
+                    "pointsmax": 20
+                },
+                {
+                    "name": "Back neck",
+                    "level": 3,
+                    "points": 20,
+                    "pointsmax": 20
+                },
+                {
+                    "name": "Groin",
+                    "level": 3,
+                    "points": 22,
+                    "pointsmax": 22
+                },
+                {
+                    "name": "Buttocks",
+                    "level": 3,
+                    "points": 14,
+                    "pointsmax": 14
+                }
+            ]
+        },
+        "meds": [
+            {
+                "name": "AFAK tactical individual first aid kit",
+                "uses": 400
+            },
+            {
+                "name": "PNB (Product 16) stimulant injector",
+                "uses": 1
+            },
+            {
+                "name": "Aluminum splint",
+                "uses": 5
+            },
+            {
+                "name": "CALOK-B hemostatic applicator",
+                "uses": 3
+            },
+            {
+                "name": "Army bandage",
+                "uses": 2
+            }
+        ],
+        "helmet": {
+            "name": "HighCom Striker ACHHC IIIA helmet (Desert Tan)",
+            "areas": [
+                {
+                    "name": "Head top",
+                    "ricochet": "High",
+                    "level": 4,
+                    "points": 12,
+                    "pointsmax": 18
+                },
+                {
+                    "name": "Nape",
+                    "ricochet": "High",
+                    "level": 4,
+                    "points": 12,
+                    "pointsmax": 18
+                }
+            ]
+        },
+        "comms": "Walker's Razor Digital Headset"
+    },
+    {
+        "name": "Punisher",
+        "connection": "top",
+        "mp": "555",
+        "primary": {
+            "name": "Colt M4A1 5.56x45 assault rifle",
+            "modes": [
+                "single",
+                "full auto"
+            ],
+            "rpm": 800,
+            "ergo": 84,
+            "vertical": 65,
+            "horizontal": 188,
+            "ammo": {
+                "name": "5.56x45mm M855A1",
+                "type": "Armor piercing",
+                "damage": 49,
+                "penetration": 44,
+                "magazines": [
+                    {
+                        "name": "5.56x45 Magpul PMAG GEN M3 STANAG 30-round magazine (FDE)",
+                        "count": 4
+                    }
+                ]
+            }
+        },
+        "secondary": {
+            "name": "Glock 17 9x19 pistol",
+            "modes": [
+                "single"
+            ],
+            "rpm": 30,
+            "ergo": 95,
+            "vertical": 295,
+            "horizontal": 247,
+            "ammo": {
+                "name": "9x19mm RIP",
+                "type": "Expansive",
+                "damage": 102,
+                "penetration": 2,
+                "magazines": [
+                    {
+                        "name": "Glock 9x19 Magpul PMAG GL9 21-round magazine",
+                        "count": 2
+                    }
+                ]
+            }
+        },
+        "armor": {
+            "name": "Hexatac HPC Plate Carrier (MultiCam Black)",
+            "areas": [
+                {
+                    "name": "F. plate",
+                    "level": 5,
+                    "points": 60,
+                    "pointsmax": 60
+                },
+                {
+                    "name": "Bck. plate",
+                    "level": 5,
+                    "points": 45,
+                    "pointsmax": 45
+                }
+            ]
+        },
+        "meds": [
+            {
+                "name": "AFAK tactical individual first aid kit",
+                "uses": 400
+            },
+            {
+                "name": "PNB (Product 16) stimulant injector",
+                "uses": 1
+            },
+            {
+                "name": "Aluminum splint",
+                "uses": 3
+            },
+            {
+                "name": "CALOK-B hemostatic applicator",
+                "uses": 3
+            },
+            {
+                "name": "Army bandage",
+                "uses": 2
+            }
+        ],
+        "helmet": {
+            "name": "Team Wendy EXFIL Ballistic Helmet (Coyote Brown)",
+            "areas": [
+                {
+                    "name": "Head top",
+                    "ricochet": "High",
+                    "level": 4,
+                    "points": 27,
+                    "pointsmax": 27
+                },
+                {
+                    "name": "Nape",
+                    "ricochet": "High",
+                    "level": 4,
+                    "points": 27,
+                    "pointsmax": 27
+                }
+            ]
+        },
+        "comms": "Walker's Razor Digital Headset"
+    },
+    {},
+    {
+        "name": "Kalter",
+        "connection": "topright",
+        "mp": "563",
+        "primary": {
+            "name": "Steyr AUG A3 5.56x45 assault rifle",
+            "modes": [
+                "single",
+                "full auto"
+            ],
+            "rpm": 715,
+            "ergo": 52,
+            "vertical": 40,
+            "horizontal": 148,
+            "ammo": {
+                "name": "5.46x44mm M855A1",
+                "type": "Armor piercing",
+                "damage": 49,
+                "penetration": 44,
+                "magazines": [
+                    {
+                        "name": "Steyr AUG 5.56x45 30-round magazine",
+                        "count": 4
+                    }
+                ]
+            }
+        },
+        "secondary": {
+            "name": "Glock 19X 9x19 pistol",
+            "modes": [
+                "single"
+            ],
+            "rpm": 30,
+            "ergo": 97.5,
+            "vertical": 293,
+            "horizontal": 242,
+            "ammo": {
+                "name": "9x19mm RIP",
+                "type": "Expansive",
+                "damage": 102,
+                "penetration": 2,
+                "magazines": [
+                    {
+                        "name": "Glock 9x19 19-round magazine (Coyote)",
+                        "count": 2
+                    }
+                ]
+            }
+        },
+        "armor": {
+            "name": "Hexatac HPC Plate Carrier (MultiCam Black)",
+            "areas": [
+                {
+                    "name": "F. plate",
+                    "level": 5,
+                    "points": 50,
+                    "pointsmax": 50
+                },
+                {
+                    "name": "Bck. plate",
+                    "level": 5,
+                    "points": 50,
+                    "pointsmax": 50
+                }
+            ]
+        },
+        "meds": [
+            {
+                "name": "AFAK tactical individual first aid kit",
+                "uses": 400
+            },
+            {
+                "name": "PNB (Product 16) stimulant injector",
+                "uses": 1
+            },
+            {
+                "name": "Aluminum splint",
+                "uses": 5
+            },
+            {
+                "name": "CALOK-B hemostatic applicator",
+                "uses": 3
+            },
+            {
+                "name": "Army bandage",
+                "uses": 2
+            }
+        ],
+        "helmet": {
+            "name": "Ops-Core FAST MT Super High Cut helmet (Black)",
+            "areas": [
+                {
+                    "name": "Head top",
+                    "ricochet": "High",
+                    "level": 4,
+                    "points": 24,
+                    "pointsmax": 24
+                },
+                {
+                    "name": "Nape",
+                    "ricochet": "High",
+                    "level": 4,
+                    "points": 24,
+                    "pointsmax": 24
+                }
+            ]
+        },
+        "comms": "Walker's Razor Digital Headset"
+    },
+    {
+        "name": "Falcon",
+        "connection": "top",
+        "mp": "559",
+        "primary": {
+            "name": "Kalashnikov AK-12 5.45x39 assault rifle",
+            "modes": [
+                "single",
+                "full auto"
+            ],
+            "rpm": 700,
+            "ergo": 40.5,
+            "vertical": 65,
+            "horizontal": 196,
+            "ammo": {
+                "name": "5.45x39mm 7N40",
+                "type": "Universal",
+                "damage": 52,
+                "penetration": 42,
+                "magazines": [
+                    {
+                        "name": "AK-74 5.45x39 6L26 45-round magazine",
+                        "count": 4
+                    }
+                ]
+            }
+        },
+        "secondary": {
+            "name": "Lebedev PL-15 9x19 pistol",
+            "modes": [
+                "single"
+            ],
+            "rpm": 30,
+            "ergo": 90,
+            "vertical": 280,
+            "horizontal": 228,
+            "ammo": {
+                "name": "9x19mm PBP gzh",
+                "type": "Armor piercing",
+                "damage": 52,
+                "penetration": 39,
+                "magazines": [
+                    {
+                        "name": "Glock 9x19 19-round magazine (Coyote)",
+                        "count": 2
+                    }
+                ]
+            }
+        },
+        "armor": {
+            "name": "BNTI Zhuk body armor (Digital Flora)",
+            "areas": [
+                {
+                    "name": "F. plate",
+                    "level": 5,
+                    "points": 40,
+                    "pointsmax": 50
+                },
+                {
+                    "name": "Bck. plate",
+                    "level": 5,
+                    "points": 40,
+                    "pointsmax": 50
+                },
+                {
+                    "name": "Thorax",
+                    "level": 3,
+                    "points": 60,
+                    "pointsmax": 60
+                },
+                {
+                    "name": "Stomach",
+                    "level": 3,
+                    "points": 60,
+                    "pointsmax": 60
+                },
+                {
+                    "name": "Upper back",
+                    "level": 3,
+                    "points": 60,
+                    "pointsmax": 60
+                },
+                {
+                    "name": "Lower back",
+                    "level": 3,
+                    "points": 60,
+                    "pointsmax": 60
+                },
+                {
+                    "name": "Left side",
+                    "level": 3,
+                    "points": 15,
+                    "pointsmax": 15
+                },
+                {
+                    "name": "Right side",
+                    "level": 3,
+                    "points": 15,
+                    "pointsmax": 15
+                },
+                {
+                    "name": "Throat",
+                    "level": 3,
+                    "points": 15,
+                    "pointsmax": 15
+                },
+                {
+                    "name": "Back neck",
+                    "level": 3,
+                    "points": 15,
+                    "pointsmax": 15
+                }
+            ]
+        },
+        "meds": [
+            {
+                "name": "AFAK tactical individual first aid kit",
+                "uses": 400
+            },
+            {
+                "name": "PNB (Product 16) stimulant injector",
+                "uses": 1
+            },
+            {
+                "name": "Aluminum splint",
+                "uses": 5
+            },
+            {
+                "name": "CALOK-B hemostatic applicator",
+                "uses": 3
+            },
+            {
+                "name": "Army bandage",
+                "uses": 2
+            }
+        ],
+        "helmet": {
+            "name": "MSA ACH TC-2001 MICH Series helmet (Olive Drab)",
+            "areas": [
+                {
+                    "name": "Head top",
+                    "ricochet": "High",
+                    "level": 4,
+                    "points": 15,
+                    "pointsmax": 15
+                },
+                {
+                    "name": "Nape",
+                    "ricochet": "High",
+                    "level": 4,
+                    "points": 15,
+                    "pointsmax": 15
+                }
+            ]
+        },
+        "comms": "Walker's Razor Digital Headset"
+    },
+    {},
+    {
+        "name": "Hotel",
+        "connection": "topleft",
+        "mp": "554",
+        "primary": {
+            "name": "FN SCAR-H 7.62x51 assault rifle",
+            "modes": [
+                "single",
+                "full auto"
+            ],
+            "rpm": 600,
+            "ergo": 49,
+            "vertical": 74,
+            "horizontal": 185,
+            "ammo": {
+                "name": "7.62x51mm M80",
+                "type": "Universal",
+                "damage": 80,
+                "penetration": 41,
+                "magazines": [
+                    {
+                        "name": "FN SCAR-H 7.62x51 20-round magazine",
+                        "count": 4
+                    }
+                ]
+            }
+        },
+        "secondary": {
+            "name": "Glock 18C 9x19 machine pistol",
+            "modes": [
+                "single",
+                "full auto"
+            ],
+            "rpm": 1200,
+            "ergo": 88,
+            "vertical": 288,
+            "horizontal": 269,
+            "ammo": {
+                "name": "9x19mm RIP",
+                "type": "Expansive",
+                "damage": 102,
+                "penetration": 2,
+                "magazines": [
+                    {
+                        "name": "Glock 9x19 'Big Stick' 33-round magazine",
+                        "count": 3
+                    }
+                ]
+            }
+        },
+        "armor": {
+            "name": "IOTV Gen4 body armor (High Mobility Kit, Multicam)",
+            "areas": [
+                {
+                    "name": "F. plate",
+                    "level": 5,
+                    "points": 60,
+                    "pointsmax": 60
+                },
+                {
+                    "name": "Bck. plate",
+                    "level": 5,
+                    "points": 50,
+                    "pointsmax": 50
+                },
+                {
+                    "name": "L. plate",
+                    "level": 5,
+                    "points": 15,
+                    "pointsmax": 15
+                },
+                {
+                    "name": "R. plate",
+                    "level": 5,
+                    "points": 15,
+                    "pointsmax": 15
+                },
+                {
+                    "name": "Stomach",
+                    "level": 3,
+                    "points": 52,
+                    "pointsmax": 52
+                },
+                {
+                    "name": "Thorax",
+                    "level": 3,
+                    "points": 52,
+                    "pointsmax": 52
+                },
+                {
+                    "name": "Lower back",
+                    "level": 3,
+                    "points": 52,
+                    "pointsmax": 52
+                },
+                {
+                    "name": "Upper back",
+                    "level": 3,
+                    "points": 52,
+                    "pointsmax": 52
+                },
+                {
+                    "name": "Left side",
+                    "level": 3,
+                    "points": 20,
+                    "pointsmax": 20
+                },
+                {
+                    "name": "Right side",
+                    "level": 3,
+                    "points": 20,
+                    "pointsmax": 20
+                },
+                {
+                    "name": "Throat",
+                    "level": 3,
+                    "points": 20,
+                    "pointsmax": 20
+                },
+                {
+                    "name": "Back neck",
+                    "level": 3,
+                    "points": 20,
+                    "pointsmax": 20
+                },
+                {
+                    "name": "Groin",
+                    "level": 3,
+                    "points": 22,
+                    "pointsmax": 22
+                },
+                {
+                    "name": "Buttocks",
+                    "level": 3,
+                    "points": 14,
+                    "pointsmax": 14
+                }
+            ]
+        },
+        "meds": [
+            {
+                "name": "AFAK tactical individual first aid kit",
+                "uses": 400
+            },
+            {
+                "name": "PNB (Product 16) stimulant injector",
+                "uses": 1
+            },
+            {
+                "name": "Aluminum splint",
+                "uses": 5
+            },
+            {
+                "name": "CALOK-B hemostatic applicator",
+                "uses": 3
+            },
+            {
+                "name": "Army bandage",
+                "uses": 2
+            }
+        ],
+        "helmet": {
+            "name": "Crye Precision AirFrame helmet (Tan)",
+            "areas": [
+                {
+                    "name": "Head top",
+                    "ricochet": "High",
+                    "level": 4,
+                    "points": 24,
+                    "pointsmax": 24
+                },
+                {
+                    "name": "Nape",
+                    "ricochet": "High",
+                    "level": 4,
+                    "points": 24,
+                    "pointsmax": 24
+                }
+            ]
+        },
+        "comms": "Walker's Razor Digital Headset"
+    },
+    {},
+    {
+        "name": "Squall",
+        "connection": "top",
+        "mp": "554",
+        "primary": {
+            "name": "FN SCAR-H 7.62x51 assault rifle",
+            "modes": [
+                "single",
+                "full auto"
+            ],
+            "rpm": 650,
+            "ergo": 53.5,
+            "vertical": 102,
+            "horizontal": 340,
+            "ammo": {
+                "name": "12.7x55mm PS12B",
+                "type": "Armor piercing",
+                "damage": 102,
+                "penetration": 46,
+                "magazines": [
+                    {
+                        "name": "ASh-12 12.7x55 assault rifle",
+                        "count": 5
+                    }
+                ]
+            }
+        },
+        "secondary": {
+            "name": "Lebedev PL-15 9x19 pistol",
+            "modes": [
+                "single"
+            ],
+            "rpm": 30,
+            "ergo": 76,
+            "vertical": 263,
+            "horizontal": 214,
+            "ammo": {
+                "name": "9x19mm PBP gzh",
+                "type": "Armor piercing",
+                "damage": 52,
+                "penetration": 39,
+                "magazines": [
+                    {
+                        "name": "PL-15 9x19 16-round magazine",
+                        "count": 2
+                    }
+                ]
+            }
+        },
+        "armor": {
+            "name": "IOTV Gen4 body armor (High Mobility Kit, Multicam)",
+            "areas": [
+                {
+                    "name": "F. plate",
+                    "level": 5,
+                    "points": 37,
+                    "pointsmax": 50
+                },
+                {
+                    "name": "Bck. plate",
+                    "level": 5,
+                    "points": 50,
+                    "pointsmax": 50
+                },
+                {
+                    "name": "L. plate",
+                    "level": 5,
+                    "points": 15,
+                    "pointsmax": 15
+                },
+                {
+                    "name": "R. plate",
+                    "level": 5,
+                    "points": 15,
+                    "pointsmax": 15
+                },
+                {
+                    "name": "Stomach",
+                    "level": 3,
+                    "points": 64,
+                    "pointsmax": 64
+                },
+                {
+                    "name": "Thorax",
+                    "level": 3,
+                    "points": 64,
+                    "pointsmax": 64
+                },
+                {
+                    "name": "Lower back",
+                    "level": 3,
+                    "points": 64,
+                    "pointsmax": 64
+                },
+                {
+                    "name": "Upper back",
+                    "level": 3,
+                    "points": 64,
+                    "pointsmax": 64
+                },
+                {
+                    "name": "Left side",
+                    "level": 3,
+                    "points": 24,
+                    "pointsmax": 24
+                },
+                {
+                    "name": "Right side",
+                    "level": 3,
+                    "points": 24,
+                    "pointsmax": 24
+                },
+                {
+                    "name": "Throat",
+                    "level": 3,
+                    "points": 16,
+                    "pointsmax": 16
+                },
+                {
+                    "name": "Groin",
+                    "level": 3,
+                    "points": 30,
+                    "pointsmax": 30
+                },
+                {
+                    "name": "Buttocks",
+                    "level": 3,
+                    "points": 18,
+                    "pointsmax": 18
+                }
+            ]
+        },
+        "meds": [
+            {
+                "name": "AFAK tactical individual first aid kit",
+                "uses": 400
+            },
+            {
+                "name": "PNB (Product 16) stimulant injector",
+                "uses": 1
+            },
+            {
+                "name": "Aluminum splint",
+                "uses": 5
+            },
+            {
+                "name": "CALOK-B hemostatic applicator",
+                "uses": 3
+            },
+            {
+                "name": "Army bandage",
+                "uses": 2
+            }
+        ],
+        "helmet": {
+            "name": "HighCom Striker ACHHC IIIA helmet (Black)",
+            "areas": [
+                {
+                    "name": "Head top",
+                    "ricochet": "High",
+                    "level": 4,
+                    "points": 18,
+                    "pointsmax": 18
+                },
+                {
+                    "name": "Nape",
+                    "ricochet": "High",
+                    "level": 4,
+                    "points": 18,
+                    "pointsmax": 18
+                }
+            ]
+        },
+        "comms": "Walker's Razor Digital Headset"
+    },
+    {
+        "name": "Lance",
+        "connection": "top2",
+        "mp": "551",
+        "primary": {
+            "name": "Desert Tech MDR 7.62x51 assault rifle",
+            "modes": [
+                "single",
+                "full auto"
+            ],
+            "rpm": 650,
+            "ergo": 62,
+            "vertical": 71,
+            "horizontal": 220,
+            "ammo": {
+                "name": "7.62x51mm M80",
+                "type": "Universal",
+                "damage": 80,
+                "penetration": 41,
+                "magazines": [
+                    {
+                        "name": "AR-10 7.62x51 Lancer L7AWM 25-round magazine",
+                        "count": 4
+                    }
+                ]
+            }
+        },
+        "secondary": {
+            "name": "Glock 17 9x19 pistol",
+            "modes": [
+                "single"
+            ],
+            "rpm": 30,
+            "ergo": 85,
+            "vertical": 283,
+            "horizontal": 237,
+            "ammo": {
+                "name": "9x19mm PBP gzh",
+                "type": "Armor piercing",
+                "damage": 52,
+                "penetration": 39,
+                "magazines": [
+                    {
+                        "name": "Glock 9x19 Magpul PMAG GL9 21-round magazine",
+                        "count": 2
+                    }
+                ]
+            }
+        },
+        "armor": {
+            "name": "5.11 Tactical TacTec plate carrier (Ranger Green)",
+            "areas": [
+                {
+                    "name": "Fr. plate",
+                    "level": 5,
+                    "points": 44,
+                    "pointsmax": 55
+                },
+                {
+                    "name": "Bck. plate",
+                    "level": 5,
+                    "points": 48,
+                    "pointsmax": 60
+                }
+            ]
+        },
+        "meds": [
+            {
+                "name": "AFAK tactical individual first aid kit",
+                "uses": 400
+            },
+            {
+                "name": "PNB (Product 16) stimulant injector",
+                "uses": 1
+            },
+            {
+                "name": "Aluminum splint",
+                "uses": 5
+            },
+            {
+                "name": "CALOK-B hemostatic applicator",
+                "uses": 3
+            },
+            {
+                "name": "Army bandage",
+                "uses": 2
+            }
+        ],
+        "helmet": {
+            "name": "Team Wendy EXFIL Ballistic Helmet (Coyote Brown)",
+            "areas": [
+                {
+                    "name": "Head top",
+                    "ricochet": "High",
+                    "level": 4,
+                    "points": 27,
+                    "pointsmax": 27
+                },
+                {
+                    "name": "Nape",
+                    "ricochet": "High",
+                    "level": 4,
+                    "points": 27,
+                    "pointsmax": 27
+                }
+            ]
+        },
+        "comms": "Walker's Razor Digital Headset"
+    },
+    {},
+    {
+        "name": "Brigadier",
+        "connection": "top2",
+        "mp": "562",
+        "primary": {
+            "name": "HK 416A5 5.56x45 assault rifle",
+            "modes": [
+                "single",
+                "full auto"
+            ],
+            "rpm": 850,
+            "ergo": 21.5,
+            "vertical": 57,
+            "horizontal": 165,
+            "ammo": {
+                "name": "5.56x45mm M856A1",
+                "type": "Universal",
+                "damage": 52,
+                "penetration": 38,
+                "magazines": [
+                    {
+                        "name": "5.56x45 Magpul PMAG 40 GEN M3 STANAG 40-round magazine (FDE)",
+                        "count": 3
+                    }
+                ]
+            }
+        },
+        "secondary": {
+            "name": "HK USP .45 ACP pistol",
+            "modes": [
+                "single"
+            ],
+            "rpm": 30,
+            "ergo": 67,
+            "vertical": 373,
+            "horizontal": 268,
+            "ammo": {
+                "name": ".45 ACP RIP",
+                "type": "Expansive",
+                "damage": 130,
+                "penetration": 3,
+                "magazines": [
+                    {
+                        "name": "HK USP Tactical .45 ACP 12-round magazine",
+                        "count": 3
+                    }
+                ]
+            }
+        },
+        "armor": {
+            "name": "Ars Arma CPC MOD.1 plate carrier (A-TACS FG)",
+            "areas": [
+                {
+                    "name": "Fr. plate",
+                    "level": 5,
+                    "points": 55,
+                    "pointsmax": 55
+                },
+                {
+                    "name": "Bck. plate",
+                    "level": 5,
+                    "points": 45,
+                    "pointsmax": 45
+                },
+                {
+                    "name": "Left side",
+                    "level": 3,
+                    "points": 20,
+                    "pointsmax": 20
+                },
+                {
+                    "name": "Right side",
+                    "level": 3,
+                    "points": 20,
+                    "pointsmax": 20
+                }
+            ]
+        },
+        "meds": [
+            {
+                "name": "AFAK tactical individual first aid kit",
+                "uses": 400
+            },
+            {
+                "name": "PNB (Product 16) stimulant injector",
+                "uses": 1
+            },
+            {
+                "name": "Aluminum splint",
+                "uses": 5
+            },
+            {
+                "name": "CALOK-B hemostatic applicator",
+                "uses": 3
+            },
+            {
+                "name": "Army bandage",
+                "uses": 2
+            }
+        ],
+        "helmet": {
+            "name": "HighCom Striker ACHHC IIIA helmet (Black)",
+            "areas": [
+                {
+                    "name": "Head top",
+                    "ricochet": "High",
+                    "level": 4,
+                    "points": 22,
+                    "pointsmax": 22
+                },
+                {
+                    "name": "Nape",
+                    "ricochet": "High",
+                    "level": 4,
+                    "points": 22,
+                    "pointsmax": 22
+                }
+            ]
+        },
+        "comms": "Walker's Razor Digital Headset"
+    },
+    {
+        "name": "Mutant",
+        "connection": "top",
+        "mp": "567",
+        "primary": {
+            "name": "CMMG Mk47 Mutant 7.62x39 assault rifle",
+            "modes": [
+                "single",
+                "full auto"
+            ],
+            "rpm": 650,
+            "ergo": 32,
+            "vertical": 72,
+            "horizontal": 189,
+            "ammo": {
+                "name": "7.62x39mm PP gzh",
+                "type": "Universal",
+                "damage": 55,
+                "penetration": 41,
+                "magazines": [
+                    {
+                        "name": "AK 7.62x39 US Palm 'AK30' 30-round magazine (Black)",
+                        "count": 4
+                    }
+                ]
+            }
+        },
+        "secondary": {
+            "name": "Colt m45A1 .45 ACP pistol",
+            "modes": [
+                "single"
+            ],
+            "rpm": 30,
+            "ergo": 87,
+            "vertical": 425,
+            "horizontal": 315,
+            "ammo": {
+                "name": ".45 ACP AP",
+                "type": "Armor piercing",
+                "damage": 66,
+                "penetration": 38,
+                "magazines": [
+                    {
+                        "name": "M1911A1 .45 ACP Wilson Combat 7-round magazine",
+                        "count": 3
+                    }
+                ]
+            }
+        },
+        "armor": {
+            "name": "Ars Arma CPC MOD.1 plate carrier (A-TACS FG)",
+            "areas": [
+                {
+                    "name": "Fr. plate",
+                    "level": 6,
+                    "points": 30,
+                    "pointsmax": 50
+                },
+                {
+                    "name": "Bck. plate",
+                    "level": 6,
+                    "points": 30,
+                    "pointsmax": 50
+                },
+                {
+                    "name": "Left side",
+                    "level": 2,
+                    "points": 10,
+                    "pointsmax": 10
+                },
+                {
+                    "name": "Right side",
+                    "level": 2,
+                    "points": 10,
+                    "pointsmax": 10
+                }
+            ]
+        },
+        "meds": [
+            {
+                "name": "AFAK tactical individual first aid kit",
+                "uses": 400
+            },
+            {
+                "name": "PNB (Product 16) stimulant injector",
+                "uses": 1
+            },
+            {
+                "name": "Aluminum splint",
+                "uses": 5
+            },
+            {
+                "name": "CALOK-B hemostatic applicator",
+                "uses": 3
+            },
+            {
+                "name": "Army bandage",
+                "uses": 2
+            }
+        ],
+        "helmet": {
+            "name": "Ops-Core FAST MT Super High Cut helmet (Urban Tan)",
+            "areas": [
+                {
+                    "name": "Head top",
+                    "ricochet": "High",
+                    "level": 4,
+                    "points": 24,
+                    "pointsmax": 24
+                },
+                {
+                    "name": "Nape",
+                    "ricochet": "High",
+                    "level": 4,
+                    "points": 24,
+                    "pointsmax": 24
+                }
+            ]
+        },
+        "comms": "Walker's Razor Digital Headset"
+    },
+    {
+        "name": "Mouse",
+        "connection": "top",
+        "mp": "564",
+        "primary": {
+            "name": "DS Arms SA-58 7.62x51 assault rifle",
+            "modes": [
+                "single",
+                "full auto"
+            ],
+            "rpm": 700,
+            "ergo": 52,
+            "vertical": 68,
+            "horizontal": 165,
+            "ammo": {
+                "name": "7.62x51mm M80",
+                "type": "Universal",
+                "damage": 80,
+                "penetration": 41,
+                "magazines": [
+                    {
+                        "name": "SA-58/FAL 7.62x51 MMW polymer 20-round magazine",
+                        "count": 5
+                    }
+                ]
+            }
+        },
+        "secondary": {
+            "name": "FN Five-seveN MK2 5.7x28 pistol (FDE)",
+            "modes": [
+                "single"
+            ],
+            "rpm": 30,
+            "ergo": 73,
+            "vertical": 256,
+            "horizontal": 218,
+            "ammo": {
+                "name": "5.7x28 SS190",
+                "type": "Armor piercing",
+                "damage": 49,
+                "penetration": 37,
+                "magazines": [
+                    {
+                        "name": "FN Five-seveN 5.7x28 20-round magazine",
+                        "count": 3
+                    }
+                ]
+            }
+        },
+        "armor": {
+            "name": "5.11 Tactical Hexgrid plate carrier",
+            "areas": [
+                {
+                    "name": "Fr. plate",
+                    "level": 6,
+                    "points": 29,
+                    "pointsmax": 45
+                },
+                {
+                    "name": "Bck. plate",
+                    "level": 6,
+                    "points": 29,
+                    "pointsmax": 45
+                }
+            ]
+        },
+        "meds": [
+            {
+                "name": "AFAK tactical individual first aid kit",
+                "uses": 400
+            },
+            {
+                "name": "PNB (Product 16) stimulant injector",
+                "uses": 1
+            },
+            {
+                "name": "Aluminum splint",
+                "uses": 5
+            },
+            {
+                "name": "CALOK-B hemostatic applicator",
+                "uses": 3
+            },
+            {
+                "name": "Army bandage",
+                "uses": 2
+            }
+        ],
+        "helmet": {
+            "name": "NFM HJELM helmet (Hellhound Grey)",
+            "areas": [
+                {
+                    "name": "Head top",
+                    "ricochet": "High",
+                    "level": 3,
+                    "points": 39,
+                    "pointsmax": 39
+                }
+            ]
+        },
+        "comms": "Walker's Razor Digital Headset"
+    },
+    {
+        "name": "Billy",
+        "connection": "top2",
+        "mp": "578",
+        "primary": {
+            "name": "SIG MCX SPEAR 6.8x51 assault rifle",
+            "modes": [
+                "single",
+                "full auto"
+            ],
+            "rpm": 800,
+            "ergo": 51,
+            "vertical": 66,
+            "horizontal": 190,
+            "ammo": {
+                "name": "6.8x51mm SIG FMJ",
+                "type": "Universal",
+                "damage": 80,
+                "penetration": 36,
+                "magazines": [
+                    {
+                        "name": "AR-10 7.62x51 Lancer L7AWM 20-round magazine",
+                        "count": 5
+                    }
+                ]
+            }
+        },
+        "secondary": {
+            "name": "SIG P226R 9x19 pistol",
+            "modes": [
+                "single"
+            ],
+            "rpm": 30,
+            "ergo": 70,
+            "vertical": 349,
+            "horizontal": 250,
+            "ammo": {
+                "name": "9x19mm RIP",
+                "type": "Expansive",
+                "damage": 102,
+                "penetration": 2,
+                "magazines": [
+                    {
+                        "name": "P226 9x19 20-round extended magazine",
+                        "count": 2
+                    }
+                ]
+            }
+        },
+        "armor": {
+            "name": "Interceptor OTV body armor (UCP)",
+            "areas": [
+                {
+                    "name": "Fr. plate",
+                    "level": 5,
+                    "points": 60,
+                    "pointsmax": 60
+                },
+                {
+                    "name": "Bck. plate",
+                    "level": 5,
+                    "points": 60,
+                    "pointsmax": 60
+                },
+                {
+                    "name": "Thorax",
+                    "level": 2,
+                    "points": 48,
+                    "pointsmax": 48
+                },
+                {
+                    "name": "Stomach",
+                    "level": 2,
+                    "points": 48,
+                    "pointsmax": 48
+                },
+                {
+                    "name": "Upper back",
+                    "level": 2,
+                    "points": 48,
+                    "pointsmax": 48
+                },
+                {
+                    "name": "Lower back",
+                    "level": 2,
+                    "points": 48,
+                    "pointsmax": 48
+                },
+                {
+                    "name": "Left side",
+                    "level": 2,
+                    "points": 18,
+                    "pointsmax": 18
+                },
+                {
+                    "name": "Right side",
+                    "level": 2,
+                    "points": 18,
+                    "pointsmax": 18
+                }
+            ]
+        },
+        "meds": [
+            {
+                "name": "AFAK tactical individual first aid kit",
+                "uses": 400
+            },
+            {
+                "name": "PNB (Product 16) stimulant injector",
+                "uses": 1
+            },
+            {
+                "name": "Aluminum splint",
+                "uses": 5
+            },
+            {
+                "name": "CALOK-B hemostatic applicator",
+                "uses": 3
+            },
+            {
+                "name": "Army bandage",
+                "uses": 2
+            }
+        ],
+        "helmet": {
+            "name": "MSA Gallet TC 800 High Cut combat helmet (black)",
+            "areas": [
+                {
+                    "name": "Head top",
+                    "ricochet": "High",
+                    "level": 4,
+                    "points": 18,
+                    "pointsmax": 18
+                },
+                {
+                    "name": "Nape",
+                    "ricochet": "High",
+                    "level": 4,
+                    "points": 18,
+                    "pointsmax": 18
+                }
+            ]
+        },
+        "comms": "Walker's Razor Digital Headset"
+    }
+]
