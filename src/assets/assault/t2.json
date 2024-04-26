@@ -493,7 +493,7 @@
     },
     {
         "name": "Sector",
-        "connection": "left",
+        "connection": "top",
         "mp": "356",
         "primary": {
             "name": "HK G36 5.56x45 assault rifle",
@@ -632,7 +632,7 @@
     },
     {
         "name": "Bunker",
-        "connection": "left",
+        "connection": "topleft",
         "mp": "353",
         "primary": {
             "name": "Kalashnikov AK-74M 5.45x39 assault rifle",
