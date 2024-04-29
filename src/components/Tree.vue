@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import Tile from './Tile.vue'
-import { ref, onMounted, onUpdated } from 'vue';
+import { ref, onUpdated } from 'vue';
 
 interface Props {
   CURR_TREE: string
