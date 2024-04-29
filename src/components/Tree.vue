@@ -86,7 +86,7 @@ onUpdated(() => {
     <div class="ml-auto self-center"></div>
     <div>
       <div class="grid gap-24 grid-cols-4 place-items-center justify-around content-around border-2 border-pink-500 mt-4 mb-4" style="width:1500px">
-        <Tile v-for="(preset, i) in tier_2" :CURR_TREE="CURR_TREE" :preset="preset" :tier="2" :key="i"/>
+        <Tile v-for="(preset, i) in tier_2" :CURR_TREE="CURR_TREE" :preset="preset" :tier="2" :index="i" :key="i"/>
       </div>
     </div>
     <div class="mr-auto self-center"></div>
@@ -99,7 +99,7 @@ onUpdated(() => {
     <div class="ml-auto self-center"></div>
     <div>
       <div class="grid gap-24 grid-cols-4 place-items-center justify-around content-around border-2 border-pink-500 mt-4" style="width:1500px">
-        <Tile v-for="(preset, i) in tier_3" :CURR_TREE="CURR_TREE" :preset="preset" :tier="3" :key="i"/>
+        <Tile v-for="(preset, i) in tier_3" :CURR_TREE="CURR_TREE" :preset="preset" :tier="3" :index="i" :key="i"/>
       </div>
     </div>
     <div class="mr-auto self-center"></div>

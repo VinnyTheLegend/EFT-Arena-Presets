@@ -14,14 +14,13 @@ library.add(faEye)
 interface Props {
     preset: Preset,
     CURR_TREE: string,
-    tier: number
+    tier: number,
+    index: number
 }
 
 const props = defineProps<Props>()
 
 let details_visible = ref(false)
-
-// console.log(props.preset.name)
 
 function getImageUrl(img: string): string {
     return new URL(`/src/assets/${props.CURR_TREE}/tier${props.tier}/${props.preset.name}/${img}.webp`, import.meta.url).href
@@ -52,7 +51,7 @@ function getImageUrl(img: string): string {
                 </div>
             </div>
         </div>
-        <TileDetails :details_visible="details_visible" :CURR_TREE="props.CURR_TREE" :preset="props.preset" :tier="props.tier"/>
+        <TileDetails :details_visible="details_visible" :CURR_TREE="props.CURR_TREE" :preset="props.preset" :tier="props.tier" :index="props.index"/>
     </div>
     <div class="relative preset-tile" v-else>
         <Line v-if="preset.connection" :linetype="preset.connection"/>

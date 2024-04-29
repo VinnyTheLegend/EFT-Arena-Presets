@@ -10,7 +10,8 @@ interface Props {
     CURR_TREE: string,
     preset: Preset,
     details_visible: boolean,
-    tier: number
+    tier: number,
+    index: number
 }
 
 const props = defineProps<Props>()
@@ -23,16 +24,13 @@ function getImageUrl(img: string): string {
 
 function getItemImageUrl(folder: string, img: string): string {
     let new_string: string = img.replace(/ /g, "_")
-    console.log(`/src/assets/${folder}/${new_string.toLowerCase()}.webp`)
     return new URL(`/src/assets/${folder}/${new_string.toLowerCase()}.webp`, import.meta.url).href
 }
 
-function updateTooltip(event: MouseEvent): void {
-    if (event.clientX > (window.innerWidth / 2)) {
-        tooltip.value = 'left'
-    } else {
-        tooltip.value = 'right'
-    }
+if ((props.index+1) % 4 <= 2 && (props.index+1) % 4 != 0) {
+    tooltip.value = "right"
+} else {
+    tooltip.value = "left"
 }
 
 </script>
@@ -42,7 +40,7 @@ function updateTooltip(event: MouseEvent): void {
         <div class="flex h-1/3 justify-evenly items-end">
             <div class="border-2 border-gray-500 primary relative">
                 <img :src="getImageUrl('primary')" alt="">
-                <div v-if="preset.primary" class="item-info-container" @mousemove="updateTooltip">
+                <div v-if="preset.primary" class="item-info-container">
                     <div class="item-info" :class="{'tooltip-left': (tooltip === 'left'), 'tooltip-right': (tooltip === 'right')}">
                         <h1 class="text-center bg-slate-950 font-bold border-gray-500 border-b-2 text-nowrap px-2">{{ preset.primary.name }}</h1>
                         <div class="flex justify-between">
@@ -64,7 +62,7 @@ function updateTooltip(event: MouseEvent): void {
             <div class="border-2 border-gray-500 square">
                 <img v-if="preset.secondary" :src="getImageUrl('secondary')" alt="">
                 <img v-else :src="no_secondary" alt="">
-                <div v-if="preset.secondary" class="item-info-container" @mousemove="updateTooltip">
+                <div v-if="preset.secondary" class="item-info-container">
                     <div class="item-info" :class="{'tooltip-left': (tooltip === 'left'), 'tooltip-right': (tooltip === 'right')}">
                         <h1 class="text-center bg-slate-950 font-bold border-gray-500 border-b-2 text-nowrap px-2">{{ preset.secondary.name }}</h1>
                         <div class="flex justify-between">
@@ -88,7 +86,7 @@ function updateTooltip(event: MouseEvent): void {
             <div class="flex h-1/2 content-around justify-around items-center">
                 <div class="border-2 border-gray-500 small-square">
                     <img :src="getImageUrl('ammo')" alt="">
-                    <div class="item-info-container" @mousemove="updateTooltip">
+                    <div class="item-info-container">
                         <div class="item-info" :class="{'tooltip-left': (tooltip === 'left'), 'tooltip-right': (tooltip === 'right')}">
                             <div v-if="preset.primary">
                                 <h1 class="text-center bg-slate-950 font-bold border-gray-500 border-b-2 text-nowrap px-2">{{ preset.primary.ammo.name }}</h1>
@@ -114,7 +112,7 @@ function updateTooltip(event: MouseEvent): void {
                 <div class="border-2 border-gray-500 small-square">
                     <img v-if="preset.armor" :src="getImageUrl('armor')" alt="">
                     <img v-else :src="no_armor" alt="">
-                    <div v-if="preset.armor" class="item-info-container" @mousemove="updateTooltip">
+                    <div v-if="preset.armor" class="item-info-container">
                         <div class="item-info" :class="{'tooltip-left': (tooltip === 'left'), 'tooltip-right': (tooltip === 'right')}">
                             <h1 class="text-center bg-slate-950 font-bold border-gray-500 border-b-2 text-nowrap px-2" style="min-width: 15rem">{{ preset.armor.name }}</h1>
                             <div v-for="(area) in preset.armor.areas" class="grid grid-cols-3 justify-between">
@@ -128,7 +126,7 @@ function updateTooltip(event: MouseEvent): void {
                 <div class="border-2 border-gray-500 small-square">
                     <img v-if="preset.helmet" :src="getImageUrl('helmet')" alt="">
                     <img v-else :src="no_helmet" alt="">
-                    <div v-if="preset.helmet" class="item-info-container" @mousemove="updateTooltip">
+                    <div v-if="preset.helmet" class="item-info-container">
                         <div class="item-info" :class="{'tooltip-left': (tooltip === 'left'), 'tooltip-right': (tooltip === 'right')}">
                             <h1 class="text-center bg-slate-950 font-bold border-gray-500 border-b-2 text-nowrap px-2" style="min-width: 28rem">{{ preset.helmet.name }}</h1>
                             <div class="grid grid-cols-4 justify-between">
@@ -151,7 +149,7 @@ function updateTooltip(event: MouseEvent): void {
                 <div class="w-1"></div>
                 <div class="border-2 border-gray-500 small-square">
                     <img :src="getItemImageUrl('meds/black', preset.meds[0].name)" alt="">
-                    <div class="item-info-container" @mousemove="updateTooltip">
+                    <div class="item-info-container">
                         <div class="item-info" :class="{'tooltip-left': (tooltip === 'left'), 'tooltip-right': (tooltip === 'right')}">
                             <div v-for="(med) in preset.meds" class="flex justify-between items-center">
                                 <div class="item-info-img"><img :src="getItemImageUrl('meds', med.name)" alt=""></div>
@@ -163,7 +161,7 @@ function updateTooltip(event: MouseEvent): void {
                 <div class="border-2 border-gray-500 small-square">
                     <img v-if="preset.grenades" :src="getImageUrl('grenades')" alt="">
                     <img v-else :src="no_grenades" alt="">
-                    <div v-if="preset.grenades" class="item-info-container" @mousemove="updateTooltip">
+                    <div v-if="preset.grenades" class="item-info-container">
                         <div class="item-info" :class="{'tooltip-left': (tooltip === 'left'), 'tooltip-right': (tooltip === 'right')}">
                             <div v-for="(grenade) in preset.grenades" class="flex justify-between items-center">
                                 <div class="item-info-img"><img :src="getItemImageUrl('grenades', grenade.name)" alt=""></div>
@@ -175,7 +173,7 @@ function updateTooltip(event: MouseEvent): void {
                 <div class="border-2 border-gray-500 small-square">
                     <img v-if="preset.comms" :src="getItemImageUrl('comms', preset.comms)" alt="">
                     <img v-else :src="no_comms" alt="">
-                    <div v-if="preset.comms" class="item-info-container" @mousemove="updateTooltip">
+                    <div v-if="preset.comms" class="item-info-container">
                         <div class="item-info" :class="{'tooltip-left': (tooltip === 'left'), 'tooltip-right': (tooltip === 'right')}">
                             <h1 class="text-center bg-slate-950 font-bold text-nowrap px-2 pb-1">{{ preset.comms }}</h1>  
                         </div>

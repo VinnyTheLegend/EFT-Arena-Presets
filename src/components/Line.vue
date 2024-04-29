@@ -1,7 +1,6 @@
 <script setup lang="ts">
 
-const props = defineProps(['linetype'])
-console.log(props.linetype)
+defineProps(['linetype'])
 
 </script>
 
