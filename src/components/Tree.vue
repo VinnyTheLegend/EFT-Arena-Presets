@@ -38,26 +38,21 @@ async function fetchJson() {
   }
 }
 
-async function getPresetData() {
+(async () => {
   await fetchJson()
 
-  console.log('setting ref')
   tier_1.value = presets[props.CURR_TREE][0]
   tier_2.value = presets[props.CURR_TREE][0]
   tier_3.value = presets[props.CURR_TREE][2]
-}
+})()
 
-console.log('setup')
-getPresetData()
-onMounted(() => {
-  console.log('mounted')
-})
+
+
 
 onUpdated(() => {
     tier_1.value = presets[props.CURR_TREE][0]
     tier_2.value = presets[props.CURR_TREE][0]
     tier_3.value = presets[props.CURR_TREE][1]
-    console.log(props.CURR_TREE)
 })
 
 
@@ -66,19 +61,7 @@ onUpdated(() => {
 <template>
 <div class="border-solid border-2 border-sky-500 mx-6 overflow-auto relative"  style="height: 90vh">
 
-  <!-- <div class="border-2 border-green-500 sticky w-full left-0 h-20 flex items-center pl-5 bg-gray-900">
-    <h1 class="font-extrabold text-3xl">Tier 1</h1>
-  </div>
-  <div class="flex">
-    <div class="ml-auto self-center"></div>
-    <div>
-      <div class="grid gap-24 grid-cols-4 place-items-center justify-around content-around border-2 border-pink-500 mt-4 mb-4" style="width:1500px">
-        <Tile v-for="(preset, i) in tier_1" :CURR_TREE="CURR_TREE" :preset="preset" :key="i"/>
-      </div>
-    </div>
-    <div class="mr-auto self-center"></div>
-  </div> -->
-
+  <!-- tier 1 -->
   <div class="border-2 border-green-500 sticky w-full left-0 h-20 flex items-center pl-5 bg-gray-900">
     <h1 class="font-extrabold text-3xl">Tier 2</h1>
   </div>
@@ -92,6 +75,7 @@ onUpdated(() => {
     <div class="mr-auto self-center"></div>
   </div>
 
+  <!-- tier 2 -->
   <div class="border-2 border-green-500 sticky w-full left-0 h-20 flex items-center pl-5 bg-gray-900 -z-10">
     <h1 class="font-extrabold text-3xl">Tier 3</h1>
   </div>
